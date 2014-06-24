@@ -31,8 +31,6 @@ namespace PoIInterface
                     }
                 }
             }
-            
-            return null;
         }
 
         public string PostRequest(string jsonRequest, string url)

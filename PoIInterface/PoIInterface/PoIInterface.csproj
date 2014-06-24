@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HttpRequestMock.cs" />
+    <Compile Include="HttpRequestUnity.cs" />
+    <Compile Include="IHttpRequest.cs" />
     <Compile Include="PoI\Location.cs" />
     <Compile Include="PoI\PoIInfoMethods.cs" />
     <Compile Include="MiniJSON\Json.cs" />
