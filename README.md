@@ -4,6 +4,9 @@ FIcontent.Gaming.Enabler.PoIUnityInterface
 Point of Interest Data Provider GE interface for .Net and Unity
 
 
+Integrate with Unity
+----------------
+To use the PoIInterface library in Unity just copy the PoIInterface folder into the Unity Assets folder of your project.
 
 Contact
 -------
