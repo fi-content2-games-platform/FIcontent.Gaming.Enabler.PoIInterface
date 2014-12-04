@@ -41,6 +41,7 @@ namespace PoI
 
         #endregion
 
+
 		public PoIInterface(string url)
 		{
 			this._poiUrl = url;
@@ -166,6 +167,15 @@ namespace PoI
 			string results = httpRequest.GetRequest(request);
 			
 			return PoISerializationHelper.DeserializePoIList(results);
+		}
+
+		#endregion
+
+		#region Static methods
+
+		public static List<PoIInfo> GetFromString (string poiStr)
+		{
+			return PoISerializationHelper.DeserializePoIList(poiStr);
 		}
 
 		#endregion

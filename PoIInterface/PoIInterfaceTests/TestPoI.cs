@@ -9,6 +9,19 @@ namespace PoIInterfaceTest
 	public class TestPoI
 	{
 		[Test()]
+		public void TestFromString()
+		{
+			string poiStr = System.IO.File.ReadAllText(@"Data/test_pois.json");
+			//file is found
+			Assert.IsNotEmpty(poiStr);
+		
+
+			var list = PoIInterface.GetFromString(poiStr);
+			Assert.IsNotNull(list);
+			Assert.Greater(list.Count, 0);
+		}
+
+		[Test()]
 		public void TestDeleteNotExists ()
 		{
 			PoIInfo pInfo = new PoIInfo ("00000000-acd2-4cdf-a65e-cded7bc7833e");

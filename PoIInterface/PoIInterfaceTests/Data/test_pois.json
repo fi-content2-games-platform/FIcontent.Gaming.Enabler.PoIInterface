@@ -1,0 +1,29 @@
+{
+	"pois":
+		{
+			"asdb-asdf-asdf-asdf":
+				{
+					"fw_core":
+						{
+							"location":
+								{
+									"wgs84":
+										{
+											"latitude":52.365299224853516,
+											"longitude":9.6899404525756836
+										}
+								},
+							"name":{"":"Mi Pueblito"},
+							"category":"restaurant",
+							"description":{"":"no steps, to wheelchair toilets"},
+							"source":
+								{
+									"name":"OpenStreetMap",
+									"website":"http://www.openstreetmap.org",
+									"license":"http://www.openstreetmap.org/copyright"
+								},
+							"last_update":{"timestamp":1234,"responsible":"x"}
+						}
+				}
+		}
+}
