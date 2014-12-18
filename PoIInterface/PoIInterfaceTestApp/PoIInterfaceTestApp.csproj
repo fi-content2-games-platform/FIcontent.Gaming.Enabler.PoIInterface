@@ -42,4 +42,11 @@
       <Name>PoIInterface</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\overpass_bus_stops_barcelona.json" />
+    <None Include="Data\overpass_bus_stops_switzerland.json" />
+  </ItemGroup>
 </Project>
