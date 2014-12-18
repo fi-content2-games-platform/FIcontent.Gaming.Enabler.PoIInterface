@@ -61,7 +61,7 @@ namespace PoI
 			string json = PoISerializationHelper.SerializePOI(p);
 
 			string result = httpRequest.PostRequest(json, request);
-			Console.WriteLine(result);
+			//Console.WriteLine(result);
 
 			if (string.IsNullOrEmpty(result))
 				return null;
@@ -85,7 +85,7 @@ namespace PoI
 			string json = MiniJSON.Json.Serialize(p.ToDictionary(true));
 
 			string result = httpRequest.PostRequest(json, request);
-			Console.WriteLine(result);
+			//Console.WriteLine(result);
 
 			return !string.IsNullOrEmpty(result) && result.Equals("POI data updated succesfully!");
 		}
@@ -100,7 +100,7 @@ namespace PoI
 			string request = new DeletePoIRequest(_poiUrl, p.Id);
 
 			string result = httpRequest.DeleteRequest(request);
-			Console.WriteLine(result);
+			//Console.WriteLine(result);
 
 			return !string.IsNullOrEmpty(result) && result.Equals("POI deleted succesfully");
 		}
