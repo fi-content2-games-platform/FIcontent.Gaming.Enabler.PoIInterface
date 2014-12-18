@@ -1,0 +1,8092 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API",
+  "osm3s": {
+    "timestamp_osm_base": "2014-12-16T15:40:02Z",
+    "timestamp_areas_base": "2014-12-16T05:37:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 30294553,
+  "lat": 41.4034319,
+  "lon": 2.1171394,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 191947355,
+  "lat": 41.3760317,
+  "lon": 2.1711786,
+  "tags": {
+    "highway": "bus_stop",
+    "recycling_type": "centre"
+  }
+},
+{
+  "type": "node",
+  "id": 192327539,
+  "lat": 41.3750021,
+  "lon": 2.1703856,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 192328375,
+  "lat": 41.3747959,
+  "lon": 2.1705857,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 253934706,
+  "lat": 41.3689646,
+  "lon": 2.1632145,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parc de Montjuïc"
+  }
+},
+{
+  "type": "node",
+  "id": 255415159,
+  "lat": 41.4307110,
+  "lon": 2.1831076,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Barcelona - Sant Andreu Arenal",
+    "note": "gestiona: RENFE",
+    "uic_ref": "7178802",
+    "wikipedia": "ca:Estació de Sant Andreu Arenal / Fabra i Puig"
+  }
+},
+{
+  "type": "node",
+  "id": 293300999,
+  "lat": 41.3876150,
+  "lon": 2.1919069,
+  "tags": {
+    "name": "Ciutadella | Vila Olímpica",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wikipedia": "ca:Estació de Ciutadella - Vila Olímpica"
+  }
+},
+{
+  "type": "node",
+  "id": 293301020,
+  "lat": 41.3975820,
+  "lon": 2.1868746,
+  "tags": {
+    "name": "Auditori - Teatre Nacional",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "source": "http://ca.wikipedia.org/wiki/Estaci%C3%B3_d%27Auditori_-_Teatre_Nacional",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 293301021,
+  "lat": 41.4017035,
+  "lon": 2.1868887,
+  "tags": {
+    "name": "Glòries",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 318313892,
+  "lat": 41.4609122,
+  "lon": 2.1831086,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "C-17 - Avinguda de l'Alzinar - Vallbona",
+    "public_transport": "stop_position",
+    "ref": "259"
+  }
+},
+{
+  "type": "node",
+  "id": 359940831,
+  "lat": 41.3901032,
+  "lon": 2.1190067,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "1413 - Pedralbes - 63, 78"
+  }
+},
+{
+  "type": "node",
+  "id": 360510408,
+  "lat": 41.4003403,
+  "lon": 2.1155526,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "130"
+  }
+},
+{
+  "type": "node",
+  "id": 364217663,
+  "lat": 41.3959245,
+  "lon": 2.1141524,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "22, 68, 73"
+  }
+},
+{
+  "type": "node",
+  "id": 364217668,
+  "lat": 41.3914165,
+  "lon": 2.1170480,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "63, 78"
+  }
+},
+{
+  "type": "node",
+  "id": 364217674,
+  "lat": 41.3892612,
+  "lon": 2.1198943,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "63, 78"
+  }
+},
+{
+  "type": "node",
+  "id": 364222486,
+  "lat": 41.3901737,
+  "lon": 2.1140847,
+  "tags": {
+    "description": "origen final",
+    "highway": "bus_stop",
+    "name": "Plaça d'Eusebi Guell",
+    "ref": "1904",
+    "route_ref": "54"
+  }
+},
+{
+  "type": "node",
+  "id": 364731358,
+  "lat": 41.3880641,
+  "lon": 2.1258743,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Hispano Igualadina"
+  }
+},
+{
+  "type": "node",
+  "id": 364731365,
+  "lat": 41.3881936,
+  "lon": 2.1264178,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "67, Hispania, Autocor, MonBus, Autocars Julià"
+  }
+},
+{
+  "type": "node",
+  "id": 364731447,
+  "lat": 41.3908326,
+  "lon": 2.1604581,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Balmes - Valencia",
+    "ref": "1493",
+    "route": "7;16;17;67;68;N5",
+    "shelter": "yes",
+    "tactile_paving": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 364735646,
+  "lat": 41.3928319,
+  "lon": 2.1578531,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Balmes Provença",
+    "operator": "TMB",
+    "ref": "1139",
+    "route": "7;16;17;67;68",
+    "shelter": "yes",
+    "tactile_paving": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 364735675,
+  "lat": 41.3944800,
+  "lon": 2.1556722,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "TMB",
+    "route": "7;16;17;31;32;N5"
+  }
+},
+{
+  "type": "node",
+  "id": 364741204,
+  "lat": 41.3951556,
+  "lon": 2.1544604,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "TMB",
+    "route": "6;15;33;34"
+  }
+},
+{
+  "type": "node",
+  "id": 364741690,
+  "lat": 41.3938251,
+  "lon": 2.1493212,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "TMB",
+    "ref": "0929",
+    "route": "6;7;15;33;34"
+  }
+},
+{
+  "type": "node",
+  "id": 364813686,
+  "lat": 41.3929763,
+  "lon": 2.1461886,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "TMB",
+    "ref": "0168",
+    "route": "6;7;15;33;34;N50"
+  }
+},
+{
+  "type": "node",
+  "id": 364829715,
+  "lat": 41.3906735,
+  "lon": 2.1257988,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "TMB",
+    "ref": "0866",
+    "route": "66;70;72;N7"
+  }
+},
+{
+  "type": "node",
+  "id": 429766624,
+  "lat": 41.3869439,
+  "lon": 2.1673447,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 451796005,
+  "lat": 41.4466121,
+  "lon": 2.1752509,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "L127"
+  }
+},
+{
+  "type": "node",
+  "id": 456994629,
+  "lat": 41.4121454,
+  "lon": 2.2167990,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 457005195,
+  "lat": 41.4117089,
+  "lon": 2.1237544,
+  "tags": {
+    "addr:street": "Carrer de Carles Riba",
+    "highway": "bus_stop",
+    "name": "196"
+  }
+},
+{
+  "type": "node",
+  "id": 468523299,
+  "lat": 41.3722510,
+  "lon": 2.1775315,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Barcelona",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 569756268,
+  "lat": 41.3896623,
+  "lon": 2.1949939,
+  "tags": {
+    "highway": "bus_stop",
+    "information": "14-41-71-92",
+    "name": "0915"
+  }
+},
+{
+  "type": "node",
+  "id": 588010946,
+  "lat": 41.3856124,
+  "lon": 2.1111303,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "33"
+  }
+},
+{
+  "type": "node",
+  "id": 588011465,
+  "lat": 41.3846703,
+  "lon": 2.1109450,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 588362915,
+  "lat": 41.4044877,
+  "lon": 2.1632707,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 609693930,
+  "lat": 41.4174140,
+  "lon": 2.1406913,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Anna Piferrer - Av de Vallcarca",
+    "route_ref": "124"
+  }
+},
+{
+  "type": "node",
+  "id": 625904198,
+  "lat": 41.4105521,
+  "lon": 2.1265470,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "196"
+  }
+},
+{
+  "type": "node",
+  "id": 652422496,
+  "lat": 41.4461345,
+  "lon": 2.1739580,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "L127"
+  }
+},
+{
+  "type": "node",
+  "id": 660788459,
+  "lat": 41.4010535,
+  "lon": 2.1990843,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 692166138,
+  "lat": 41.3986669,
+  "lon": 2.1803730,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Gran Via - Marina",
+    "note": "Lines 6 7 56 62 B21"
+  }
+},
+{
+  "type": "node",
+  "id": 709102361,
+  "lat": 41.3753202,
+  "lon": 2.1307307,
+  "tags": {
+    "bus": "yes",
+    "name": "Badal - Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1362"
+  }
+},
+{
+  "type": "node",
+  "id": 709125030,
+  "lat": 41.3752679,
+  "lon": 2.1367603,
+  "tags": {
+    "bus": "yes",
+    "name": "Metro Pl Sants",
+    "network": "local",
+    "note": "157 57 56 N14 N2",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "584"
+  }
+},
+{
+  "type": "node",
+  "id": 709125041,
+  "lat": 41.3752115,
+  "lon": 2.1395605,
+  "tags": {
+    "bus": "yes",
+    "name": "Sants - Gayarre",
+    "network": "local",
+    "note": "157 56 57 N2 N14",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "179"
+  }
+},
+{
+  "type": "node",
+  "id": 728721425,
+  "lat": 41.4016877,
+  "lon": 2.1510557,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 771329407,
+  "lat": 41.3627377,
+  "lon": 2.1612266,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Can Valero - Pg del Migdia",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 772095989,
+  "lat": 41.3814675,
+  "lon": 2.1143026,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 814996957,
+  "lat": 41.3896887,
+  "lon": 2.1577270,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Aribau - Mallorca",
+    "ref": "0842",
+    "route_ref": "54;58;64;66;67;68;N3;N7;N8",
+    "shelter": "yes",
+    "tactile_paving": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 821626945,
+  "lat": 41.4122256,
+  "lon": 2.2171678,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 821627728,
+  "lat": 41.4130142,
+  "lon": 2.2175203,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 821628877,
+  "lat": 41.4241934,
+  "lon": 2.2026180,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 821629328,
+  "lat": 41.4236286,
+  "lon": 2.2026059,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 821630584,
+  "lat": 41.4257380,
+  "lon": 2.2007082,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 823781710,
+  "lat": 41.3922931,
+  "lon": 2.1447226,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 823781714,
+  "lat": 41.3811878,
+  "lon": 2.1204970,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Futbol Club Barcelona"
+  }
+},
+{
+  "type": "node",
+  "id": 823781717,
+  "lat": 41.3874210,
+  "lon": 2.1709268,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 823781719,
+  "lat": 41.3865448,
+  "lon": 2.1695684,
+  "tags": {
+    "highway": "bus_stop",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 823781720,
+  "lat": 41.3958399,
+  "lon": 2.1140070,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 823781721,
+  "lat": 41.4100452,
+  "lon": 2.1363199,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Tramvia Blau-Tibidabo",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 823781724,
+  "lat": 41.3861008,
+  "lon": 2.1180822,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 823781725,
+  "lat": 41.3994207,
+  "lon": 2.1200584,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Sarria"
+  }
+},
+{
+  "type": "node",
+  "id": 823781726,
+  "lat": 41.3942957,
+  "lon": 2.2012450,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 823781728,
+  "lat": 41.4042551,
+  "lon": 2.1635810,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 823781729,
+  "lat": 41.4106218,
+  "lon": 2.1565790,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 824476554,
+  "lat": 41.3777236,
+  "lon": 2.1700803,
+  "tags": {
+    "bus": "120",
+    "highway": "bus_stop",
+    "name": "Rambla del Raval"
+  }
+},
+{
+  "type": "node",
+  "id": 824476567,
+  "lat": 41.3793820,
+  "lon": 2.1688685,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Rambla del Raval",
+    "route_ref": "120"
+  }
+},
+{
+  "type": "node",
+  "id": 824476572,
+  "lat": 41.3781865,
+  "lon": 2.1703062,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Rambla del Raval",
+    "route_ref": "120"
+  }
+},
+{
+  "type": "node",
+  "id": 824476578,
+  "lat": 41.3790834,
+  "lon": 2.1684487,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Rambla del Raval",
+    "route_ref": "120"
+  }
+},
+{
+  "type": "node",
+  "id": 826085074,
+  "lat": 41.3783356,
+  "lon": 2.1880500,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 846875629,
+  "lat": 41.4164780,
+  "lon": 2.1700697,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Mare de Déu de Montserrat / Gènova",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 847721549,
+  "lat": 41.4160310,
+  "lon": 2.1698913,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Mare de Déu de Montserrat / Cartagena",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 847721552,
+  "lat": 41.4157007,
+  "lon": 2.1677132,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Mare de Déu de Montserrat / Francesc Alegre"
+  }
+},
+{
+  "type": "node",
+  "id": 913181394,
+  "lat": 41.3867496,
+  "lon": 2.1693936,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 913181397,
+  "lat": 41.3876110,
+  "lon": 2.1689514,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 919495568,
+  "lat": 41.4539605,
+  "lon": 2.1717641,
+  "tags": {
+    "ele": "217.545",
+    "highway": "bus_stop",
+    "name": "wpt-2010-09-20T11:05:52.000Z",
+    "wpt_symbol": "ButtonStamp"
+  }
+},
+{
+  "type": "node",
+  "id": 977641433,
+  "lat": 41.4062070,
+  "lon": 2.1389246,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Balmes - el Putget",
+    "route_ref": "17;N5"
+  }
+},
+{
+  "type": "node",
+  "id": 977690544,
+  "lat": 41.4178468,
+  "lon": 2.1391371,
+  "tags": {
+    "amenity": "shelter",
+    "highway": "bus_stop",
+    "name": "Pg Vall d'Hebron - Anna Piferrer",
+    "ref": "2200",
+    "route_ref": "119;123;124",
+    "shelter_type": "public_transport"
+  }
+},
+{
+  "type": "node",
+  "id": 980323398,
+  "lat": 41.4175673,
+  "lon": 2.1402960,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Metro Penitents",
+    "route_ref": "123"
+  }
+},
+{
+  "type": "node",
+  "id": 980323429,
+  "lat": 41.4174977,
+  "lon": 2.1404795,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Metro Penitents",
+    "route_ref": "119"
+  }
+},
+{
+  "type": "node",
+  "id": 980323471,
+  "lat": 41.4173525,
+  "lon": 2.1408555,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Anna Piferrer - Betània",
+    "route_ref": "129"
+  }
+},
+{
+  "type": "node",
+  "id": 982813057,
+  "lat": 41.4185561,
+  "lon": 2.1385922,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Ctra. de St Cugat Gutemberg",
+    "route_ref": "119"
+  }
+},
+{
+  "type": "node",
+  "id": 983299125,
+  "lat": 41.4206039,
+  "lon": 2.1386102,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Ctra. Sant Cugat - Navata",
+    "route_ref": "119"
+  }
+},
+{
+  "type": "node",
+  "id": 983299163,
+  "lat": 41.4215430,
+  "lon": 2.1404661,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Pg de la Vall d'Hebron - Natzaret",
+    "route_ref": "17;19;27;60;73;119;N4",
+    "shelter": "yes",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 983299199,
+  "lat": 41.4238035,
+  "lon": 2.1415297,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "17;19;27;60;73;119;N4"
+  }
+},
+{
+  "type": "node",
+  "id": 983361247,
+  "lat": 41.4039387,
+  "lon": 2.1760517,
+  "tags": {
+    "bus": "yes",
+    "name": "Sagrada Família",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1297",
+    "route_ref": "19;33;34;50;51;B20;B24;N1;N7"
+  }
+},
+{
+  "type": "node",
+  "id": 983361278,
+  "lat": 41.4022586,
+  "lon": 2.1745788,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "N9"
+  }
+},
+{
+  "type": "node",
+  "id": 983361311,
+  "lat": 41.4032708,
+  "lon": 2.1773868,
+  "tags": {
+    "bus": "yes",
+    "name": "Sagrada Familia",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "784",
+    "route_ref": "33;34;50;51;B20;B24;N1;N7;N9"
+  }
+},
+{
+  "type": "node",
+  "id": 983361428,
+  "lat": 41.4048231,
+  "lon": 2.1794457,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Padilla",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "244",
+    "route_ref": "33;34;50;51;B20;B24;N9"
+  }
+},
+{
+  "type": "node",
+  "id": 984502334,
+  "lat": 41.4107444,
+  "lon": 2.1249266,
+  "tags": {
+    "addr:street": "Carrer de Josep Maria Lladó",
+    "highway": "bus_stop",
+    "name": "196"
+  }
+},
+{
+  "type": "node",
+  "id": 990002874,
+  "lat": 41.4108559,
+  "lon": 2.1768425,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 990002877,
+  "lat": 41.4105055,
+  "lon": 2.1773007,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1072838408,
+  "lat": 41.3864760,
+  "lon": 2.1710484,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1198007401,
+  "lat": 41.3661198,
+  "lon": 2.1553692,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Olympica MNAC"
+  }
+},
+{
+  "type": "node",
+  "id": 1336877907,
+  "lat": 41.4167261,
+  "lon": 2.1386665,
+  "tags": {
+    "amenity": "shelter",
+    "highway": "bus_stop",
+    "name": "Pl. Alfonso Comín - Pg. Vall d'Hebron",
+    "ref": "1003",
+    "route_ref": "17;60;73;123;124;N4",
+    "shelter_type": "public_transport"
+  }
+},
+{
+  "type": "node",
+  "id": 1336877961,
+  "lat": 41.4186442,
+  "lon": 2.1390630,
+  "tags": {
+    "amenity": "shelter",
+    "highway": "bus_stop",
+    "shelter_type": "public_transport"
+  }
+},
+{
+  "type": "node",
+  "id": 1343391143,
+  "lat": 41.4041048,
+  "lon": 2.1770222,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Lepant - Mallorca",
+    "route_ref": "10;N0"
+  }
+},
+{
+  "type": "node",
+  "id": 1347922794,
+  "lat": 41.3783423,
+  "lon": 2.1170634,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "15"
+  }
+},
+{
+  "type": "node",
+  "id": 1347922795,
+  "lat": 41.3789662,
+  "lon": 2.1180933,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1347922812,
+  "lat": 41.3779156,
+  "lon": 2.1158349,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1347922813,
+  "lat": 41.3790386,
+  "lon": 2.1188604,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1347922814,
+  "lat": 41.3777465,
+  "lon": 2.1163097,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1347954577,
+  "lat": 41.3770463,
+  "lon": 2.1198933,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1349449406,
+  "lat": 41.3895627,
+  "lon": 2.1500817,
+  "tags": {
+    "bus": "yes",
+    "name": "Còrsega - Hospital Clínc",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1466",
+    "route_ref": "54;59;66;N3",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1357211251,
+  "lat": 41.4035051,
+  "lon": 2.1521794,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Gran de Gràcia - Santa Àgueda",
+    "ref": "1117",
+    "route_ref": "22;24;28;87;N4"
+  }
+},
+{
+  "type": "node",
+  "id": 1357211268,
+  "lat": 41.4062070,
+  "lon": 2.1499919,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pl Lesseps - Gran de Gràcia",
+    "ref": "1116",
+    "route_ref": "22;24;28;116;87;N4"
+  }
+},
+{
+  "type": "node",
+  "id": 1361887280,
+  "lat": 41.4055871,
+  "lon": 2.1781541,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Padilla",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1072",
+    "route_ref": "33;34;43;44;50;51;B20;B24;N9"
+  }
+},
+{
+  "type": "node",
+  "id": 1368508880,
+  "lat": 41.4117452,
+  "lon": 2.1389156,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Craywinckel-Hurtado",
+    "operator": "TMB",
+    "ref": "2878",
+    "route_ref": "N4",
+    "shelter": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1368508891,
+  "lat": 41.4094545,
+  "lon": 2.1474946,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "N4"
+  }
+},
+{
+  "type": "node",
+  "id": 1368508902,
+  "lat": 41.4144782,
+  "lon": 2.1382460,
+  "tags": {
+    "amenity": "shelter",
+    "highway": "bus_stop",
+    "route_ref": "N4",
+    "shelter_type": "public_transport"
+  }
+},
+{
+  "type": "node",
+  "id": 1368508961,
+  "lat": 41.4115767,
+  "lon": 2.1424999,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "N4"
+  }
+},
+{
+  "type": "node",
+  "id": 1368518328,
+  "lat": 41.4007928,
+  "lon": 2.1588855,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Torrent de l'Olla - Penedès",
+    "ref": "0218",
+    "route_ref": "39"
+  }
+},
+{
+  "type": "node",
+  "id": 1368519069,
+  "lat": 41.4022249,
+  "lon": 2.1566394,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Ros de Olano - Torrent de l'Olla",
+    "ref": "2482",
+    "route_ref": "114"
+  }
+},
+{
+  "type": "node",
+  "id": 1368519103,
+  "lat": 41.4009716,
+  "lon": 2.1544475,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Ros de Olano - Gran de Gràcia",
+    "ref": "2483",
+    "route_ref": "114"
+  }
+},
+{
+  "type": "node",
+  "id": 1368519188,
+  "lat": 41.4018064,
+  "lon": 2.1532864,
+  "tags": {
+    "amenity": "shelter",
+    "highway": "bus_stop",
+    "route_ref": "N4",
+    "shelter_type": "public_transport"
+  }
+},
+{
+  "type": "node",
+  "id": 1374308501,
+  "lat": 41.3879858,
+  "lon": 2.1218521,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1374327949,
+  "lat": 41.3904538,
+  "lon": 2.1238257,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1374538562,
+  "lat": 41.4274745,
+  "lon": 2.1538995,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Lisboa - Serrallonga",
+    "ref": "1861",
+    "route_ref": "112;185"
+  }
+},
+{
+  "type": "node",
+  "id": 1374539017,
+  "lat": 41.4226726,
+  "lon": 2.1452275,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Arenys - Rossell",
+    "ref": "0435",
+    "route_ref": "19"
+  }
+},
+{
+  "type": "node",
+  "id": 1374539432,
+  "lat": 41.4218703,
+  "lon": 2.1429491,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Frastenrat - Arenys",
+    "ref": "2976",
+    "route_ref": "119"
+  }
+},
+{
+  "type": "node",
+  "id": 1375321412,
+  "lat": 41.3942099,
+  "lon": 2.1241108,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1375749531,
+  "lat": 41.3878173,
+  "lon": 2.1225503,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1375749536,
+  "lat": 41.3870001,
+  "lon": 2.1215740,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1386880776,
+  "lat": 41.3876036,
+  "lon": 2.1705126,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Aerobus A1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1386880778,
+  "lat": 41.3873017,
+  "lon": 2.1708989,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Aerobus A2",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1426089992,
+  "lat": 41.3878833,
+  "lon": 2.1266213,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1426090002,
+  "lat": 41.3858924,
+  "lon": 2.1188383,
+  "tags": {
+    "bus": "yes",
+    "covered": "yes",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 1460386411,
+  "lat": 41.3807959,
+  "lon": 2.1191391,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1460386413,
+  "lat": 41.3850705,
+  "lon": 2.1156173,
+  "tags": {
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1474043723,
+  "lat": 41.3869553,
+  "lon": 2.1445033,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1474043726,
+  "lat": 41.3850596,
+  "lon": 2.1420840,
+  "tags": {
+    "bus": "yes",
+    "name": "Berlin - Josep Tarradellas",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "628"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608389,
+  "lat": 41.3820629,
+  "lon": 2.1274874,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608391,
+  "lat": 41.3873113,
+  "lon": 2.1359310,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608394,
+  "lat": 41.3807870,
+  "lon": 2.1259585,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608399,
+  "lat": 41.3898525,
+  "lon": 2.1458956,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608404,
+  "lat": 41.3861347,
+  "lon": 2.1638746,
+  "tags": {
+    "highway": "bus_stop",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608406,
+  "lat": 41.3879392,
+  "lon": 2.1664116,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608410,
+  "lat": 41.3853996,
+  "lon": 2.1417514,
+  "tags": {
+    "bus": "yes",
+    "name": "Marquès de Sentmenat - Equador",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "395"
+  }
+},
+{
+  "type": "node",
+  "id": 1474608974,
+  "lat": 41.3879432,
+  "lon": 2.1660200,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1478113760,
+  "lat": 41.3868772,
+  "lon": 2.1228155,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1483285554,
+  "lat": 41.4079465,
+  "lon": 2.1589993,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "Bus 39"
+  }
+},
+{
+  "type": "node",
+  "id": 1491004894,
+  "lat": 41.3807166,
+  "lon": 2.1177533,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1532928486,
+  "lat": 41.4191741,
+  "lon": 2.1358433,
+  "tags": {
+    "bench": "no",
+    "highway": "bus_stop",
+    "ref": "2769",
+    "route_ref": "124",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1532928507,
+  "lat": 41.4202020,
+  "lon": 2.1348646,
+  "tags": {
+    "bench": "no",
+    "highway": "bus_stop",
+    "ref": "2768",
+    "route_ref": "124",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1532928519,
+  "lat": 41.4209777,
+  "lon": 2.1340095,
+  "tags": {
+    "bench": "no",
+    "highway": "bus_stop",
+    "ref": "2788",
+    "route_ref": "124",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1546525865,
+  "lat": 41.3833266,
+  "lon": 2.1081804,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1546525890,
+  "lat": 41.3836244,
+  "lon": 2.1083789,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Av. Diagonal - Z. Universitaria"
+  }
+},
+{
+  "type": "node",
+  "id": 1546529757,
+  "lat": 41.3805604,
+  "lon": 2.1252284,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1553616948,
+  "lat": 41.3875170,
+  "lon": 2.1270546,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1555469422,
+  "lat": 41.3761004,
+  "lon": 2.1236610,
+  "tags": {
+    "bus": "yes",
+    "name": "Av. Madrid - Arizala",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1754"
+  }
+},
+{
+  "type": "node",
+  "id": 1564503283,
+  "lat": 41.3856023,
+  "lon": 2.1162240,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1580338848,
+  "lat": 41.3849758,
+  "lon": 2.1367304,
+  "tags": {
+    "bus": "yes",
+    "name": "Marquès de Sentmenat - Numància",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1575"
+  }
+},
+{
+  "type": "node",
+  "id": 1580338860,
+  "lat": 41.3817196,
+  "lon": 2.1351291,
+  "tags": {
+    "bus": "yes",
+    "name": "Plaça del Centre",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "488"
+  }
+},
+{
+  "type": "node",
+  "id": 1580338861,
+  "lat": 41.3884914,
+  "lon": 2.1440582,
+  "tags": {
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1588786479,
+  "lat": 41.3931776,
+  "lon": 2.1459281,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Av. Diagonal / Pl. F. Macià (C. I. F. Macià)"
+  }
+},
+{
+  "type": "node",
+  "id": 1588786481,
+  "lat": 41.3921876,
+  "lon": 2.1474489,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1588786497,
+  "lat": 41.3891612,
+  "lon": 2.1435732,
+  "tags": {
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1588825783,
+  "lat": 41.3880041,
+  "lon": 2.1280566,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1588825788,
+  "lat": 41.3889660,
+  "lon": 2.1275309,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1590494584,
+  "lat": 41.3790504,
+  "lon": 2.1279247,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1596111040,
+  "lat": 41.3809468,
+  "lon": 2.1870840,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "17,36,39,45,57,59,157",
+    "name": "Bus stop 000955 - Pg Joan de Borbó-Ginebra"
+  }
+},
+{
+  "type": "node",
+  "id": 1610134867,
+  "lat": 41.3774649,
+  "lon": 2.1108775,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1634948396,
+  "lat": 41.4394211,
+  "lon": 2.1656226,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "31, 47, 71, 73, 76, 82, 122, B-16, B-19",
+    "name": "Parada Bus 000755",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1634950895,
+  "lat": 41.4392180,
+  "lon": 2.1657031,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "31, 47, 71, 73, 76, 82, 122, B-16, B-19",
+    "name": "Parada Bus 000428",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1645362848,
+  "lat": 41.3917263,
+  "lon": 2.1358839,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1645362853,
+  "lat": 41.3863736,
+  "lon": 2.1430025,
+  "tags": {
+    "bus": "yes",
+    "name": "Josep Tarradellas - París",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1253"
+  }
+},
+{
+  "type": "node",
+  "id": 1645362856,
+  "lat": 41.3862770,
+  "lon": 2.1419779,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1645362858,
+  "lat": 41.3865869,
+  "lon": 2.1394405,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1645362862,
+  "lat": 41.3873838,
+  "lon": 2.1407011,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1645362880,
+  "lat": 41.3907362,
+  "lon": 2.1363989,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1662624568,
+  "lat": 41.3909865,
+  "lon": 2.1586854,
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "name": "Mallorca - Aribau",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "0004",
+    "route_ref": "20;43;44",
+    "shelter": "yes",
+    "tactile_paving": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1662624587,
+  "lat": 41.3922984,
+  "lon": 2.1628790,
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "name": "Valencia - Pg de Gràcia",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1078",
+    "route": "20;63;N7",
+    "shelter": "yes",
+    "tactile_paving": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1669523957,
+  "lat": 41.3759385,
+  "lon": 2.1136272,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1669526463,
+  "lat": 41.3938047,
+  "lon": 2.1742551,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1672837656,
+  "lat": 41.3982138,
+  "lon": 2.1659884,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1674675240,
+  "lat": 41.4237099,
+  "lon": 2.1824262,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1674675249,
+  "lat": 41.4230804,
+  "lon": 2.1835527,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1674675251,
+  "lat": 41.4229898,
+  "lon": 2.1833381,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1693124826,
+  "lat": 41.3835534,
+  "lon": 2.1512909,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Viladomat",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2345"
+  }
+},
+{
+  "type": "node",
+  "id": 1704312208,
+  "lat": 41.4280583,
+  "lon": 2.1756451,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1957",
+    "name": "Costa i Cuxart-Felip II"
+  }
+},
+{
+  "type": "node",
+  "id": 1704312211,
+  "lat": 41.4280644,
+  "lon": 2.1747439,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1958",
+    "name": "Av Borbò-Costa i Cuxart"
+  }
+},
+{
+  "type": "node",
+  "id": 1708619231,
+  "lat": 41.3865502,
+  "lon": 2.1354761,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1711862324,
+  "lat": 41.3811233,
+  "lon": 2.1265129,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1711871852,
+  "lat": 41.3810949,
+  "lon": 2.1078126,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1719727399,
+  "lat": 41.3757979,
+  "lon": 2.1496436,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3236"
+  }
+},
+{
+  "type": "node",
+  "id": 1744470953,
+  "lat": 41.4112083,
+  "lon": 2.2127943,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1772819115,
+  "lat": 41.4281266,
+  "lon": 2.0902301,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1787081050,
+  "lat": 41.3829164,
+  "lon": 2.1228433,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1787081052,
+  "lat": 41.3885189,
+  "lon": 2.1277356,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Av. Diagonal / Pl. R. M. Cristina"
+  }
+},
+{
+  "type": "node",
+  "id": 1787081055,
+  "lat": 41.3855769,
+  "lon": 2.1226287,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1787081057,
+  "lat": 41.3910747,
+  "lon": 2.1364906,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1806294674,
+  "lat": 41.3876216,
+  "lon": 2.1144203,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Jordi Girona-Tt Coronel Valenzuela",
+    "operator": "TMB",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "tmb:code": "1484"
+  }
+},
+{
+  "type": "node",
+  "id": 1812294090,
+  "lat": 41.3929851,
+  "lon": 2.1463801,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1812294092,
+  "lat": 41.3950077,
+  "lon": 2.1542002,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1817530572,
+  "lat": 41.4274936,
+  "lon": 2.0921098,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "L3 L5 128"
+  }
+},
+{
+  "type": "node",
+  "id": 1819068915,
+  "lat": 41.4093661,
+  "lon": 2.2099784,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "7"
+  }
+},
+{
+  "type": "node",
+  "id": 1863513015,
+  "lat": 41.3857146,
+  "lon": 2.1965852,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Origen /final Linea 92",
+    "route_ref": "9",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1864620009,
+  "lat": 41.3851795,
+  "lon": 2.1962014,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1864620010,
+  "lat": 41.3852123,
+  "lon": 2.1952241,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1864620011,
+  "lat": 41.3857227,
+  "lon": 2.1945725,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1864620012,
+  "lat": 41.3862070,
+  "lon": 2.1947852,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1933498386,
+  "lat": 41.4249114,
+  "lon": 2.1428268,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "17;19;27;60;73;119;N4"
+  }
+},
+{
+  "type": "node",
+  "id": 1933498389,
+  "lat": 41.4250921,
+  "lon": 2.1407834,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "17;19;27;60;73;119;N4"
+  }
+},
+{
+  "type": "node",
+  "id": 1933578147,
+  "lat": 41.4299521,
+  "lon": 2.1395618,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Vayreda - Arquitectura",
+    "public_transport": "stop_area",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1933578157,
+  "lat": 41.4329363,
+  "lon": 2.1414121,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Montbau - Vayreda",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1933607909,
+  "lat": 41.4249338,
+  "lon": 2.1411222,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "17;19;27;60;73;119;N4"
+  }
+},
+{
+  "type": "node",
+  "id": 1933645621,
+  "lat": 41.4318373,
+  "lon": 2.1446751,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Poesía - Llars Sant Jordi",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1933645622,
+  "lat": 41.4315729,
+  "lon": 2.1407882,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Veyreda - Escultura",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1934456607,
+  "lat": 41.4082404,
+  "lon": 2.2097385,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Parada Autobus 26",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1934457237,
+  "lat": 41.4036743,
+  "lon": 2.2057947,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "shelter": "yes",
+    "tactile_paving": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1944069238,
+  "lat": 41.3634471,
+  "lon": 2.1342794,
+  "tags": {
+    "Líneas": "46, 65, 165, H12",
+    "highway": "bus_stop",
+    "name": "Ciutat de la Justícia"
+  }
+},
+{
+  "type": "node",
+  "id": 1962300126,
+  "lat": 41.3980737,
+  "lon": 2.1680415,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Girona",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "504"
+  }
+},
+{
+  "type": "node",
+  "id": 1962300294,
+  "lat": 41.3980737,
+  "lon": 2.1680415,
+  "tags": {
+    "description": "Bus:43,44",
+    "highway": "bus_stop",
+    "name": "Mallorca-Girona",
+    "ref": "504"
+  }
+},
+{
+  "type": "node",
+  "id": 1962303202,
+  "lat": 41.3989510,
+  "lon": 2.1688139,
+  "tags": {
+    "description": "Bus:6,15,33,34",
+    "highway": "bus_stop",
+    "name": "Pl. Verdaguer"
+  }
+},
+{
+  "type": "node",
+  "id": 1962304332,
+  "lat": 41.3995128,
+  "lon": 2.1690898,
+  "tags": {
+    "description": "Buses:15,55",
+    "highway": "bus_stop",
+    "name": "St Joan-Diagonal (bus)"
+  }
+},
+{
+  "type": "node",
+  "id": 1962304461,
+  "lat": 41.3997652,
+  "lon": 2.1694882,
+  "tags": {
+    "description": "Buses: 15, 55",
+    "highway": "bus_stop",
+    "name": "Sant Joan - Provença"
+  }
+},
+{
+  "type": "node",
+  "id": 1962309515,
+  "lat": 41.3986793,
+  "lon": 2.1703455,
+  "tags": {
+    "description": "Bus: 6",
+    "highway": "bus_stop",
+    "name": "Sant Joan - Verdaguer (bus)"
+  }
+},
+{
+  "type": "node",
+  "id": 1962310429,
+  "lat": 41.3970416,
+  "lon": 2.1691760,
+  "tags": {
+    "bus": "yes",
+    "description": "Bus:126",
+    "highway": "bus_stop",
+    "name": "Mercat de la Concepció",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "126"
+  }
+},
+{
+  "type": "node",
+  "id": 1962314112,
+  "lat": 41.3980516,
+  "lon": 2.1712092,
+  "tags": {
+    "description": "Bus:19,50,51,55",
+    "highway": "bus_stop",
+    "name": "Passeig Sant Joan - Valencia (bus)",
+    "ref": "57"
+  }
+},
+{
+  "type": "node",
+  "id": 1962314859,
+  "lat": 41.3972267,
+  "lon": 2.1726736,
+  "tags": {
+    "description": "Bus:6,19,50,51,55",
+    "highway": "bus_stop",
+    "name": "Passeig Sant Joan-Arago",
+    "ref": "63"
+  }
+},
+{
+  "type": "node",
+  "id": 1966472087,
+  "lat": 41.3870294,
+  "lon": 2.1675714,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1966472088,
+  "lat": 41.3866571,
+  "lon": 2.1665521,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1966472090,
+  "lat": 41.3868063,
+  "lon": 2.1669662,
+  "tags": {
+    "addr:housenumber": "27",
+    "addr:street": "Ronda de la Universitat",
+    "highway": "bus_stop",
+    "name": "Rda. Universitat - Pl. Catalunya"
+  }
+},
+{
+  "type": "node",
+  "id": 1966472091,
+  "lat": 41.3871574,
+  "lon": 2.1679081,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1966516541,
+  "lat": 41.3745505,
+  "lon": 2.1483399,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2084830424,
+  "lat": 41.3934592,
+  "lon": 2.1955891,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2089402215,
+  "lat": 41.3915101,
+  "lon": 2.1115017,
+  "tags": {
+    "bus": "yes",
+    "name": "Bus",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 2091604747,
+  "lat": 41.3820811,
+  "lon": 2.1468276,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "shelter": "yes",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2121359742,
+  "lat": 41.3610286,
+  "lon": 2.1803858,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2121359755,
+  "lat": 41.3632179,
+  "lon": 2.1817972,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2121359758,
+  "lat": 41.3748158,
+  "lon": 2.1779864,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2121359759,
+  "lat": 41.3756442,
+  "lon": 2.1783895,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2189826739,
+  "lat": 41.3744822,
+  "lon": 2.1490444,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "394",
+    "name": "Pl. Espanya"
+  }
+},
+{
+  "type": "node",
+  "id": 2189836251,
+  "lat": 41.3760402,
+  "lon": 2.1487014,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3237",
+    "name": "Pl. Espanya"
+  }
+},
+{
+  "type": "node",
+  "id": 2195906267,
+  "lat": 41.4039360,
+  "lon": 2.1171735,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1538",
+    "name": "Pl. Borràs"
+  }
+},
+{
+  "type": "node",
+  "id": 2195906269,
+  "lat": 41.4048798,
+  "lon": 2.1174587,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1534",
+    "name": "Pl. Borràs"
+  }
+},
+{
+  "type": "node",
+  "id": 2195906272,
+  "lat": 41.4039322,
+  "lon": 2.1146674,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3263",
+    "name": "Sarrià",
+    "note": "V7 origen-final"
+  }
+},
+{
+  "type": "node",
+  "id": 2195909110,
+  "lat": 41.4020606,
+  "lon": 2.1203696,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1745",
+    "name": "Via Augusta - Margenat",
+    "note": "V7 66 130 N8"
+  }
+},
+{
+  "type": "node",
+  "id": 2195909111,
+  "lat": 41.4029840,
+  "lon": 2.1196052,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1587",
+    "name": "Institut Químic de Sarrià"
+  }
+},
+{
+  "type": "node",
+  "id": 2195921305,
+  "lat": 41.3984494,
+  "lon": 2.1258878,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "133",
+    "name": "Via Augusta - Pau Alcover"
+  }
+},
+{
+  "type": "node",
+  "id": 2195921306,
+  "lat": 41.4001533,
+  "lon": 2.1238296,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "134",
+    "name": "Pg. Bonanova"
+  }
+},
+{
+  "type": "node",
+  "id": 2195921307,
+  "lat": 41.4001332,
+  "lon": 2.1231591,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "622",
+    "name": "Pg. Bonanova"
+  }
+},
+{
+  "type": "node",
+  "id": 2195924839,
+  "lat": 41.3985620,
+  "lon": 2.1253152,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1573",
+    "name": "Via Augusta - Els Vergós"
+  }
+},
+{
+  "type": "node",
+  "id": 2197932372,
+  "lat": 41.3970894,
+  "lon": 2.1270236,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "701",
+    "name": "Els Vergós"
+  }
+},
+{
+  "type": "node",
+  "id": 2197936279,
+  "lat": 41.3960711,
+  "lon": 2.1258276,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3264",
+    "name": "Els Vergós"
+  }
+},
+{
+  "type": "node",
+  "id": 2197939044,
+  "lat": 41.3953429,
+  "lon": 2.1262135,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3265",
+    "name": "Pg. Sant Joan Bosco"
+  }
+},
+{
+  "type": "node",
+  "id": 2197961301,
+  "lat": 41.3950250,
+  "lon": 2.1267929,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3293",
+    "name": "Pg. Sant Joan Bosco"
+  }
+},
+{
+  "type": "node",
+  "id": 2197986210,
+  "lat": 41.3926225,
+  "lon": 2.1295931,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3266",
+    "name": "Prat de la Riba"
+  }
+},
+{
+  "type": "node",
+  "id": 2197986214,
+  "lat": 41.3924090,
+  "lon": 2.1314063,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3269",
+    "name": "Prat de la Riba"
+  }
+},
+{
+  "type": "node",
+  "id": 2198012844,
+  "lat": 41.3893102,
+  "lon": 2.1327903,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1380",
+    "name": "Numància - Av. Diagonal"
+  }
+},
+{
+  "type": "node",
+  "id": 2198026587,
+  "lat": 41.3866256,
+  "lon": 2.1354217,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "990",
+    "name": "Numància - Travessera de les Corts"
+  }
+},
+{
+  "type": "node",
+  "id": 2198026588,
+  "lat": 41.3880424,
+  "lon": 2.1360359,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3267",
+    "name": "Constança"
+  }
+},
+{
+  "type": "node",
+  "id": 2198032014,
+  "lat": 41.3857987,
+  "lon": 2.1382970,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1377",
+    "name": "Nicaragua - Taquígraf Serra"
+  }
+},
+{
+  "type": "node",
+  "id": 2198032015,
+  "lat": 41.3829006,
+  "lon": 2.1393216,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "629",
+    "name": "Numància - Berlín"
+  }
+},
+{
+  "type": "node",
+  "id": 2198032016,
+  "lat": 41.3811559,
+  "lon": 2.1414191,
+  "tags": {
+    "bus": "yes",
+    "name": "Metro Sants-Estació",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2270"
+  }
+},
+{
+  "type": "node",
+  "id": 2198032017,
+  "lat": 41.3828302,
+  "lon": 2.1419502,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "110",
+    "name": "Nicaragua - Josep Tarradellas"
+  }
+},
+{
+  "type": "node",
+  "id": 2203423142,
+  "lat": 41.3782500,
+  "lon": 2.1457347,
+  "tags": {
+    "bus": "yes",
+    "local_ref": "3125",
+    "name": "Metro Tarragona",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3125"
+  }
+},
+{
+  "type": "node",
+  "id": 2203423147,
+  "lat": 41.3804916,
+  "lon": 2.1436863,
+  "tags": {
+    "bus": "yes",
+    "name": "Av. de Roma - Estació de Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "777"
+  }
+},
+{
+  "type": "node",
+  "id": 2203423151,
+  "lat": 41.3782379,
+  "lon": 2.1453699,
+  "tags": {
+    "bus": "yes",
+    "local_ref": "1499",
+    "name": "Metro Tarragona",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1499"
+  }
+},
+{
+  "type": "node",
+  "id": 2223785795,
+  "lat": 41.4272108,
+  "lon": 2.0914382,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2267226719,
+  "lat": 41.3694193,
+  "lon": 2.1469812,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2315190539,
+  "lat": 41.3920630,
+  "lon": 2.1467488,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Buenos Aires",
+    "operator": "27"
+  }
+},
+{
+  "type": "node",
+  "id": 2315190540,
+  "lat": 41.3909761,
+  "lon": 2.1440038,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Av. Sarrià"
+  }
+},
+{
+  "type": "node",
+  "id": 2338184265,
+  "lat": 41.4156714,
+  "lon": 2.0928732,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Mas Sauró Camí del Pebràs",
+    "ref": "118"
+  }
+},
+{
+  "type": "node",
+  "id": 2338184266,
+  "lat": 41.4156346,
+  "lon": 2.0929495,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Mas Sauró",
+    "ref": "118"
+  }
+},
+{
+  "type": "node",
+  "id": 2375838289,
+  "lat": 41.3764849,
+  "lon": 2.1189214,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2375856756,
+  "lat": 41.3951539,
+  "lon": 2.1537628,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2375857249,
+  "lat": 41.3760463,
+  "lon": 2.1123231,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408246680,
+  "lat": 41.4090291,
+  "lon": 2.1017105,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408256843,
+  "lat": 41.3997810,
+  "lon": 2.1213213,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408256844,
+  "lat": 41.3979983,
+  "lon": 2.1179256,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408256845,
+  "lat": 41.4009237,
+  "lon": 2.1233974,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408257621,
+  "lat": 41.4065267,
+  "lon": 2.1336970,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408257622,
+  "lat": 41.4059654,
+  "lon": 2.1338741,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408261954,
+  "lat": 41.4157540,
+  "lon": 2.1356068,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408261955,
+  "lat": 41.4117487,
+  "lon": 2.1371033,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408261963,
+  "lat": 41.4151767,
+  "lon": 2.1360842,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2408261965,
+  "lat": 41.4096951,
+  "lon": 2.1368057,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2409339118,
+  "lat": 41.3991897,
+  "lon": 2.1435195,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2409339119,
+  "lat": 41.4009099,
+  "lon": 2.1478674,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pl Molina",
+    "operator": "TMB"
+  }
+},
+{
+  "type": "node",
+  "id": 2409339120,
+  "lat": 41.4013243,
+  "lon": 2.1474114,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2409339121,
+  "lat": 41.3995639,
+  "lon": 2.1453837,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2409340510,
+  "lat": 41.3852983,
+  "lon": 2.1536476,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Comte d'Urgell",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "138"
+  }
+},
+{
+  "type": "node",
+  "id": 2409340511,
+  "lat": 41.3868603,
+  "lon": 2.1555726,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Villarroel",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "165"
+  }
+},
+{
+  "type": "node",
+  "id": 2409340512,
+  "lat": 41.3886761,
+  "lon": 2.1580908,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Muntaner",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2409340513,
+  "lat": 41.3844984,
+  "lon": 2.1555642,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2409340514,
+  "lat": 41.3901841,
+  "lon": 2.1600911,
+  "tags": {
+    "bus": "yes",
+    "name": "Valencia - Balmes",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "98"
+  }
+},
+{
+  "type": "node",
+  "id": 2412575675,
+  "lat": 41.3885989,
+  "lon": 2.1554733,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Mercat del Ninot",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "166"
+  }
+},
+{
+  "type": "node",
+  "id": 2412575676,
+  "lat": 41.3824410,
+  "lon": 2.1515197,
+  "tags": {
+    "bus": "yes",
+    "name": "Calàbria- Aragó",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2412575677,
+  "lat": 41.3820524,
+  "lon": 2.1464530,
+  "tags": {
+    "bus": "yes",
+    "name": "Av. de Roma - Entença",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "378"
+  }
+},
+{
+  "type": "node",
+  "id": 2412575678,
+  "lat": 41.3845219,
+  "lon": 2.1500981,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Viladomat",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "207"
+  }
+},
+{
+  "type": "node",
+  "id": 2412575679,
+  "lat": 41.3854114,
+  "lon": 2.1563906,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2430066977,
+  "lat": 41.4274877,
+  "lon": 2.1683456,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2430077716,
+  "lat": 41.4180957,
+  "lon": 2.1913122,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2430077717,
+  "lat": 41.4177875,
+  "lon": 2.1915075,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2430077718,
+  "lat": 41.4173532,
+  "lon": 2.1910170,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2430077719,
+  "lat": 41.4191329,
+  "lon": 2.1887435,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2434364016,
+  "lat": 41.3649791,
+  "lon": 2.1669908,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034081,
+  "lat": 41.4081021,
+  "lon": 2.2034025,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034082,
+  "lat": 41.4106288,
+  "lon": 2.1999907,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034083,
+  "lat": 41.4130909,
+  "lon": 2.1966648,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034084,
+  "lat": 41.4149737,
+  "lon": 2.1941543,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de bus 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034085,
+  "lat": 41.4172748,
+  "lon": 2.1910000,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada bus 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034086,
+  "lat": 41.4190046,
+  "lon": 2.1887898,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobus 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034087,
+  "lat": 41.4289722,
+  "lon": 2.1774173,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034088,
+  "lat": 41.4302673,
+  "lon": 2.1760011,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034089,
+  "lat": 41.4303317,
+  "lon": 2.1730614,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034090,
+  "lat": 41.4303558,
+  "lon": 2.1705937,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034092,
+  "lat": 41.4338629,
+  "lon": 2.1635127,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034093,
+  "lat": 41.4376127,
+  "lon": 2.1651015,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034094,
+  "lat": 41.4395736,
+  "lon": 2.1640491,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034095,
+  "lat": 41.4414717,
+  "lon": 2.1622038,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034102,
+  "lat": 41.4424529,
+  "lon": 2.1621609,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034103,
+  "lat": 41.4434985,
+  "lon": 2.1628261,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034104,
+  "lat": 41.4441740,
+  "lon": 2.1649718,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2447034116,
+  "lat": 41.4448415,
+  "lon": 2.1673965,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada de autobús 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2458474492,
+  "lat": 41.3740625,
+  "lon": 2.1882666,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "17"
+  }
+},
+{
+  "type": "node",
+  "id": 2458498575,
+  "lat": 41.3705688,
+  "lon": 2.1876247,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2458498577,
+  "lat": 41.3683689,
+  "lon": 2.1877009,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2465930793,
+  "lat": 41.3906122,
+  "lon": 2.2007548,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2465943677,
+  "lat": 41.3941089,
+  "lon": 2.2019979,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2465943678,
+  "lat": 41.3917150,
+  "lon": 2.1974342,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2465943680,
+  "lat": 41.3912703,
+  "lon": 2.1972653,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2465943681,
+  "lat": 41.3932321,
+  "lon": 2.1991563,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2467767377,
+  "lat": 41.4035796,
+  "lon": 2.1163273,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "60-66"
+  }
+},
+{
+  "type": "node",
+  "id": 2467767450,
+  "lat": 41.3906462,
+  "lon": 2.1072721,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "60"
+  }
+},
+{
+  "type": "node",
+  "id": 2467767474,
+  "lat": 41.3880705,
+  "lon": 2.1066928,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "60"
+  }
+},
+{
+  "type": "node",
+  "id": 2468197819,
+  "lat": 41.3749344,
+  "lon": 2.1637786,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469153956,
+  "lat": 41.3905761,
+  "lon": 2.1856116,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pg Pujades Napols",
+    "operator": "TMB",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2469174881,
+  "lat": 41.3894294,
+  "lon": 2.1835868,
+  "tags": {
+    "highway": "bus_stop",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2469174888,
+  "lat": 41.3898349,
+  "lon": 2.1846292,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469174891,
+  "lat": 41.3907997,
+  "lon": 2.1801697,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469174895,
+  "lat": 41.3913284,
+  "lon": 2.1790186,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469174898,
+  "lat": 41.3912283,
+  "lon": 2.1812479,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469194582,
+  "lat": 41.3902974,
+  "lon": 2.1762410,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469194587,
+  "lat": 41.3895114,
+  "lon": 2.1741912,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469206088,
+  "lat": 41.3890238,
+  "lon": 2.1728607,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2469375318,
+  "lat": 41.3827095,
+  "lon": 2.1717842,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2474375772,
+  "lat": 41.3764053,
+  "lon": 2.1748366,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2474393455,
+  "lat": 41.3767708,
+  "lon": 2.1729295,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2474421364,
+  "lat": 41.4048373,
+  "lon": 2.2132353,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2481725905,
+  "lat": 41.4256946,
+  "lon": 2.1198742,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482827804,
+  "lat": 41.3834237,
+  "lon": 2.1949339,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482827806,
+  "lat": 41.3846936,
+  "lon": 2.1956071,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482827807,
+  "lat": 41.3861948,
+  "lon": 2.1960104,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482861033,
+  "lat": 41.3803265,
+  "lon": 2.1928471,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482887601,
+  "lat": 41.3981855,
+  "lon": 2.2070441,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482902756,
+  "lat": 41.4010365,
+  "lon": 2.2122314,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482911957,
+  "lat": 41.4070921,
+  "lon": 2.2153643,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482911961,
+  "lat": 41.4069915,
+  "lon": 2.2154823,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482920855,
+  "lat": 41.4104274,
+  "lon": 2.2184515,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482920861,
+  "lat": 41.4088251,
+  "lon": 2.2170061,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2482920863,
+  "lat": 41.4091141,
+  "lon": 2.2155583,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2484218128,
+  "lat": 41.3878118,
+  "lon": 2.1694210,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2484274473,
+  "lat": 41.4136993,
+  "lon": 2.1305515,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2484274519,
+  "lat": 41.4134096,
+  "lon": 2.1306025,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Ronda de Dalt Cister"
+  }
+},
+{
+  "type": "node",
+  "id": 2484304272,
+  "lat": 41.4134925,
+  "lon": 2.1347478,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2484304423,
+  "lat": 41.4143273,
+  "lon": 2.1329024,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2484316171,
+  "lat": 41.4106046,
+  "lon": 2.1366370,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2484343628,
+  "lat": 41.4119879,
+  "lon": 2.1382025,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2485090680,
+  "lat": 41.4155847,
+  "lon": 2.1551034,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Parc Güell",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2485090681,
+  "lat": 41.4156868,
+  "lon": 2.1554134,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "name": "Parc Güell",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2485090694,
+  "lat": 41.4155675,
+  "lon": 2.1551690,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2485090695,
+  "lat": 41.4157384,
+  "lon": 2.1553773,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2485606320,
+  "lat": 41.3800368,
+  "lon": 2.1627949,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2487142964,
+  "lat": 41.3807920,
+  "lon": 2.1615454,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Floridablanca-Comte d'Urgell"
+  }
+},
+{
+  "type": "node",
+  "id": 2487149448,
+  "lat": 41.3835509,
+  "lon": 2.1629122,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2488209616,
+  "lat": 41.4273865,
+  "lon": 2.1681395,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490089915,
+  "lat": 41.4256437,
+  "lon": 2.1753270,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490089922,
+  "lat": 41.4265025,
+  "lon": 2.1721567,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490116384,
+  "lat": 41.4188034,
+  "lon": 2.1805386,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490154028,
+  "lat": 41.4154262,
+  "lon": 2.1799485,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490173668,
+  "lat": 41.4126275,
+  "lon": 2.1761794,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Hospital Santa Creu"
+  }
+},
+{
+  "type": "node",
+  "id": 2490182945,
+  "lat": 41.4065784,
+  "lon": 2.1681435,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490182947,
+  "lat": 41.4029004,
+  "lon": 2.1646290,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490182949,
+  "lat": 41.4013557,
+  "lon": 2.1657215,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490182951,
+  "lat": 41.4107587,
+  "lon": 2.1737306,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490182953,
+  "lat": 41.4092017,
+  "lon": 2.1716438,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490901570,
+  "lat": 41.3835769,
+  "lon": 2.1793094,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490901574,
+  "lat": 41.3897578,
+  "lon": 2.1709880,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2490901578,
+  "lat": 41.3989372,
+  "lon": 2.1633545,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2491599551,
+  "lat": 41.3791186,
+  "lon": 2.1804039,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2491599570,
+  "lat": 41.3748558,
+  "lon": 2.1692299,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2491599575,
+  "lat": 41.3748880,
+  "lon": 2.1608560,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2491599579,
+  "lat": 41.3804308,
+  "lon": 2.1815814,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2491599585,
+  "lat": 41.3747390,
+  "lon": 2.1749966,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493032043,
+  "lat": 41.3724840,
+  "lon": 2.1787620,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "20 final"
+  }
+},
+{
+  "type": "node",
+  "id": 2493053956,
+  "lat": 41.3782392,
+  "lon": 2.1214112,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493074671,
+  "lat": 41.4150703,
+  "lon": 2.1335444,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493088555,
+  "lat": 41.4160331,
+  "lon": 2.1314059,
+  "tags": {
+    "highway": "bus_stop",
+    "note": "bus 196 turns here"
+  }
+},
+{
+  "type": "node",
+  "id": 2493101520,
+  "lat": 41.4113735,
+  "lon": 2.1439745,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB"
+  }
+},
+{
+  "type": "node",
+  "id": 2493146981,
+  "lat": 41.4104889,
+  "lon": 2.1551480,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493147001,
+  "lat": 41.4070228,
+  "lon": 2.1535011,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493147009,
+  "lat": 41.4084310,
+  "lon": 2.1560519,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493147021,
+  "lat": 41.4123517,
+  "lon": 2.1538980,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493147023,
+  "lat": 41.4133947,
+  "lon": 2.1530491,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493147051,
+  "lat": 41.4111126,
+  "lon": 2.1554725,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493150339,
+  "lat": 41.3918704,
+  "lon": 2.1455354,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493156593,
+  "lat": 41.3877593,
+  "lon": 2.1443742,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2493167446,
+  "lat": 41.3665371,
+  "lon": 2.1517159,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2498103454,
+  "lat": 41.3787891,
+  "lon": 2.1089044,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2498788253,
+  "lat": 41.3762048,
+  "lon": 2.1510302,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Gran Via - Llançà",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1559"
+  }
+},
+{
+  "type": "node",
+  "id": 2498820153,
+  "lat": 41.3775115,
+  "lon": 2.1601011,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2498820156,
+  "lat": 41.3784860,
+  "lon": 2.1606408,
+  "tags": {
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2499985874,
+  "lat": 41.3851894,
+  "lon": 2.1802238,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2501068121,
+  "lat": 41.3862061,
+  "lon": 2.1651017,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2501096696,
+  "lat": 41.3843345,
+  "lon": 2.1617114,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2501136926,
+  "lat": 41.3872661,
+  "lon": 2.1746299,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Palau de la Musica"
+  }
+},
+{
+  "type": "node",
+  "id": 2502038311,
+  "lat": 41.3928328,
+  "lon": 2.1887139,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2502038314,
+  "lat": 41.3922094,
+  "lon": 2.1870726,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2503270795,
+  "lat": 41.3973548,
+  "lon": 2.1654128,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2503270803,
+  "lat": 41.3928456,
+  "lon": 2.1668585,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2503270807,
+  "lat": 41.3858972,
+  "lon": 2.1762891,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2503270824,
+  "lat": 41.3902459,
+  "lon": 2.1702863,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2503270831,
+  "lat": 41.3849796,
+  "lon": 2.1773432,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2504360773,
+  "lat": 41.3711958,
+  "lon": 2.1499451,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645417,
+  "lat": 41.3815586,
+  "lon": 2.1453182,
+  "tags": {
+    "bus": "yes",
+    "name": "Av. de Roma - Vilamarí",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "976"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645422,
+  "lat": 41.3835254,
+  "lon": 2.1396789,
+  "tags": {
+    "bus": "yes",
+    "name": "Berlin - Numància",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "396"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645427,
+  "lat": 41.3850062,
+  "lon": 2.1479994,
+  "tags": {
+    "bus": "yes",
+    "name": "Calàbria- Provença",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1267"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645431,
+  "lat": 41.3815607,
+  "lon": 2.1401555,
+  "tags": {
+    "bus": "yes",
+    "name": "Enric Bargés - Numància",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2695"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645436,
+  "lat": 41.3848814,
+  "lon": 2.1423895,
+  "tags": {
+    "bus": "yes",
+    "name": "Josep Tarradellas - Berlín",
+    "network": "local",
+    "operator": "Transports Metropolitans de Barcelona",
+    "public_transport": "stop_position",
+    "ref": "397"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645442,
+  "lat": 41.3812081,
+  "lon": 2.1421514,
+  "tags": {
+    "bus": "yes",
+    "name": "Josep Tarradellas - Numància",
+    "network": "local",
+    "operator": "Transports Metropolitans de Barcelona",
+    "public_transport": "stop_position",
+    "ref": "1414"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645444,
+  "lat": 41.3828764,
+  "lon": 2.1426315,
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "name": "Josep Tarradellas - Rosselló",
+    "network": "local",
+    "operator": "Transports Metropolitans de Barcelona",
+    "public_transport": "stop_position",
+    "ref": "217",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645445,
+  "lat": 41.3798886,
+  "lon": 2.1410634,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl. dels Països Catalans - Estació",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3126"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645446,
+  "lat": 41.3794596,
+  "lon": 2.1415327,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl. dels Països Catalans -Estació Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3167"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645447,
+  "lat": 41.3796387,
+  "lon": 2.1413325,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl. dels Països Catalans",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3168"
+  }
+},
+{
+  "type": "node",
+  "id": 2508645448,
+  "lat": 41.3851795,
+  "lon": 2.1455237,
+  "tags": {
+    "bus": "yes",
+    "name": "Rocafort - Jardins de Montserrat",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1266"
+  }
+},
+{
+  "type": "node",
+  "id": 2508735727,
+  "lat": 41.4025109,
+  "lon": 2.2107741,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508735728,
+  "lat": 41.3945064,
+  "lon": 2.2027608,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508735732,
+  "lat": 41.4015082,
+  "lon": 2.2110059,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508735733,
+  "lat": 41.3944340,
+  "lon": 2.2015591,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508735735,
+  "lat": 41.3989973,
+  "lon": 2.2097425,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508735736,
+  "lat": 41.3931200,
+  "lon": 2.1994268,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508772646,
+  "lat": 41.4107804,
+  "lon": 2.2174002,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2508824062,
+  "lat": 41.3903508,
+  "lon": 2.1990047,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1763",
+    "name": "Salvador Espriu Arquitecte Sert"
+  }
+},
+{
+  "type": "node",
+  "id": 2508896428,
+  "lat": 41.3796534,
+  "lon": 2.1391493,
+  "tags": {
+    "bus": "yes",
+    "name": "Estació de Sants - Viriat",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3129"
+  }
+},
+{
+  "type": "node",
+  "id": 2509756978,
+  "lat": 41.3892491,
+  "lon": 2.1949688,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2509781506,
+  "lat": 41.3909293,
+  "lon": 2.1922088,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2509790284,
+  "lat": 41.3766679,
+  "lon": 2.1612705,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2509819985,
+  "lat": 41.3673119,
+  "lon": 2.1633762,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2509822944,
+  "lat": 41.3685972,
+  "lon": 2.1651524,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2509826688,
+  "lat": 41.3683976,
+  "lon": 2.1689724,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846192,
+  "lat": 41.3786303,
+  "lon": 2.1276390,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Madrid - Carles III",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1752"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846193,
+  "lat": 41.3789079,
+  "lon": 2.1284408,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Madrid - Carles III",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "479"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846194,
+  "lat": 41.3808330,
+  "lon": 2.1327249,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Madrid - Joan Güell",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1576"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846195,
+  "lat": 41.3805770,
+  "lon": 2.1313928,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Madrid - Joan Güell",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2690"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846196,
+  "lat": 41.3815445,
+  "lon": 2.1351465,
+  "tags": {
+    "bus": "yes",
+    "name": "Plaça del Centre",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1578"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846197,
+  "lat": 41.3752804,
+  "lon": 2.1304192,
+  "tags": {
+    "bus": "yes",
+    "name": "Badal - Casteràs",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "161"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846198,
+  "lat": 41.3764743,
+  "lon": 2.1457805,
+  "tags": {
+    "bus": "yes",
+    "name": "Consell de Cent - Rector Triadó",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1841"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846199,
+  "lat": 41.3799455,
+  "lon": 2.1291045,
+  "tags": {
+    "bus": "yes",
+    "name": "Gran Via Carles III - Av Madrid",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1379"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846200,
+  "lat": 41.3755078,
+  "lon": 2.1277966,
+  "tags": {
+    "bus": "yes",
+    "name": "Metro Badal",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1766"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846201,
+  "lat": 41.3755851,
+  "lon": 2.1288561,
+  "tags": {
+    "bus": "yes",
+    "name": "Metro Badal",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1756"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846202,
+  "lat": 41.3751556,
+  "lon": 2.1448183,
+  "tags": {
+    "bus": "yes",
+    "name": "Metro Hostafrancs",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "391"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846203,
+  "lat": 41.3752591,
+  "lon": 2.1445460,
+  "tags": {
+    "bus": "yes",
+    "name": "Metro Hostafrancs",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "181"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846204,
+  "lat": 41.3754060,
+  "lon": 2.1365697,
+  "tags": {
+    "bus": "yes",
+    "name": "Metro Pl Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1364"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846206,
+  "lat": 41.3846859,
+  "lon": 2.1374965,
+  "tags": {
+    "bus": "yes",
+    "name": "Numància - Marqués de Sentmenat",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "109"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846207,
+  "lat": 41.3752002,
+  "lon": 2.1475062,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya - Creu Coberta",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "180"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846208,
+  "lat": 41.3750892,
+  "lon": 2.1475039,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "392"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846209,
+  "lat": 41.3753830,
+  "lon": 2.1343361,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl de Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "708"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846210,
+  "lat": 41.3754753,
+  "lon": 2.1343460,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl de Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1767"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846211,
+  "lat": 41.3783837,
+  "lon": 2.1389269,
+  "tags": {
+    "bus": "yes",
+    "name": "Plaça de Joan Peiró",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3166"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846212,
+  "lat": 41.3771449,
+  "lon": 2.1301257,
+  "tags": {
+    "bus": "yes",
+    "name": "Rambla del Brasil - Miquel Àngel",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "857"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846213,
+  "lat": 41.3770597,
+  "lon": 2.1296974,
+  "tags": {
+    "bus": "yes",
+    "name": "Rambla del Brasil - Roger",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1970"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846214,
+  "lat": 41.3789161,
+  "lon": 2.1290572,
+  "tags": {
+    "bus": "yes",
+    "name": "Rambla del Brasil - Violant d'Hongria",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1363"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846215,
+  "lat": 41.3811579,
+  "lon": 2.1508327,
+  "tags": {
+    "bus": "yes",
+    "name": "Rocafort- Aragó",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "176"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846216,
+  "lat": 41.3834180,
+  "lon": 2.1478659,
+  "tags": {
+    "bus": "yes",
+    "name": "Rocafort- Provença",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1248"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846217,
+  "lat": 41.3760717,
+  "lon": 2.1362739,
+  "tags": {
+    "bus": "yes",
+    "name": "Sant Antoni - Plaça de Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1771"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846218,
+  "lat": 41.3754172,
+  "lon": 2.1319200,
+  "tags": {
+    "bus": "yes",
+    "name": "Sants - Badal",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "707"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846219,
+  "lat": 41.3753197,
+  "lon": 2.1394680,
+  "tags": {
+    "bus": "yes",
+    "name": "Sants - Premià",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1365"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846220,
+  "lat": 41.3755334,
+  "lon": 2.1310786,
+  "tags": {
+    "bus": "yes",
+    "name": "Sants - Rambla del Brasil",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1768"
+  }
+},
+{
+  "type": "node",
+  "id": 2509846221,
+  "lat": 41.3838789,
+  "lon": 2.1340967,
+  "tags": {
+    "bus": "yes",
+    "name": "Vallespir - Jardí de les infantes",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "855"
+  }
+},
+{
+  "type": "node",
+  "id": 2510477867,
+  "lat": 41.3755883,
+  "lon": 2.1491116,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya - Centre Comercial",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3246"
+  }
+},
+{
+  "type": "node",
+  "id": 2510477868,
+  "lat": 41.3745725,
+  "lon": 2.1486984,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2775"
+  }
+},
+{
+  "type": "node",
+  "id": 2510477870,
+  "lat": 41.3757691,
+  "lon": 2.1486842,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "394"
+  }
+},
+{
+  "type": "node",
+  "id": 2510477871,
+  "lat": 41.3760123,
+  "lon": 2.1483418,
+  "tags": {
+    "bus": "yes",
+    "name": "Tarragona - Pl Espanya",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "390"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578356,
+  "lat": 41.3751300,
+  "lon": 2.1524311,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Paral·lel - Av Mistral",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1185"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578361,
+  "lat": 41.3748435,
+  "lon": 2.1527738,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Paral·lel - Llançà",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1064"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578365,
+  "lat": 41.3748413,
+  "lon": 2.1529857,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Paral·lel - Lleida",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1062"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578370,
+  "lat": 41.3748424,
+  "lon": 2.1526506,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Paral·lel - Pl Espanya",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1063"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578374,
+  "lat": 41.3750792,
+  "lon": 2.1577492,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Paral·lel - Rocafort",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "377"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578383,
+  "lat": 41.3748952,
+  "lon": 2.1552688,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Paral·lel - Tamarit",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1367"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578386,
+  "lat": 41.3748424,
+  "lon": 2.1528760,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Paral·lel",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1982"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578391,
+  "lat": 41.3755841,
+  "lon": 2.1559855,
+  "tags": {
+    "bus": "yes",
+    "name": "Entença - Floridablanca",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "444"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578395,
+  "lat": 41.3755357,
+  "lon": 2.1546746,
+  "tags": {
+    "bus": "yes",
+    "name": "Floridablanca - Av Mistral",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "379"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578400,
+  "lat": 41.3756959,
+  "lon": 2.1512747,
+  "tags": {
+    "bus": "yes",
+    "name": "Llançà - Av Mistral",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "580"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578407,
+  "lat": 41.3742176,
+  "lon": 2.1543169,
+  "tags": {
+    "bus": "yes",
+    "name": "Lleida - Av Paral·lel",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1369"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578412,
+  "lat": 41.3737314,
+  "lon": 2.1548120,
+  "tags": {
+    "bus": "yes",
+    "name": "Lleida - Tamarit",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1368"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578416,
+  "lat": 41.3749003,
+  "lon": 2.1505418,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya - Av Paral·lel",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "788"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578421,
+  "lat": 41.3743308,
+  "lon": 2.1484877,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya - FGC",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "389"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578427,
+  "lat": 41.3754369,
+  "lon": 2.1500708,
+  "tags": {
+    "bus": "yes",
+    "name": "Pl Espanya - Gran Via",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3247"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578431,
+  "lat": 41.3757248,
+  "lon": 2.1525487,
+  "tags": {
+    "bus": "yes",
+    "name": "Sepúlveda - Vilamarí",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "776"
+  }
+},
+{
+  "type": "node",
+  "id": 2510578438,
+  "lat": 41.3757101,
+  "lon": 2.1534295,
+  "tags": {
+    "bus": "yes",
+    "name": "Vilamarí - Av Mistral",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1059"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905922,
+  "lat": 41.3921904,
+  "lon": 2.1543222,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Aribau - Còrsega",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "222"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905925,
+  "lat": 41.3904164,
+  "lon": 2.1525813,
+  "tags": {
+    "bus": "yes",
+    "name": "Casanova - Hospital Clínic",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "214"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905926,
+  "lat": 41.3886343,
+  "lon": 2.1544791,
+  "tags": {
+    "bus": "yes",
+    "name": "Casanova - Mercat del Ninot",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1137"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905930,
+  "lat": 41.3910922,
+  "lon": 2.1512714,
+  "tags": {
+    "bus": "yes",
+    "name": "Casanova- París",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1088"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905933,
+  "lat": 41.3921871,
+  "lon": 2.1534999,
+  "tags": {
+    "bus": "yes",
+    "name": "Còrsega - Aribau",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "930"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905936,
+  "lat": 41.3861782,
+  "lon": 2.1524157,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Comte d'Urgell",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "139"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905941,
+  "lat": 41.3910288,
+  "lon": 2.1534801,
+  "tags": {
+    "bus": "yes",
+    "name": "Muntaner - Còrsega",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1268"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905944,
+  "lat": 41.3886163,
+  "lon": 2.1567596,
+  "tags": {
+    "bus": "yes",
+    "name": "Muntaner - Mallorca",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1495"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905947,
+  "lat": 41.3904024,
+  "lon": 2.1556766,
+  "tags": {
+    "bus": "yes",
+    "name": "Provença - Aribau",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "938"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905949,
+  "lat": 41.3894850,
+  "lon": 2.1545242,
+  "tags": {
+    "bus": "yes",
+    "name": "Provença - Hospital Clínic",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "170"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905952,
+  "lat": 41.3811214,
+  "lon": 2.1479550,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Entença",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "380"
+  }
+},
+{
+  "type": "node",
+  "id": 2510905955,
+  "lat": 41.3868340,
+  "lon": 2.1546226,
+  "tags": {
+    "bus": "yes",
+    "name": "Villarroel - Mercat del Ninot",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1488"
+  }
+},
+{
+  "type": "node",
+  "id": 2512832397,
+  "lat": 41.4427593,
+  "lon": 2.1703108,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Via Favència-Castor"
+  }
+},
+{
+  "type": "node",
+  "id": 2517572808,
+  "lat": 41.4441445,
+  "lon": 2.1724629,
+  "tags": {
+    "bus": "yes",
+    "name": "Almagro - Quarter de Simancas",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1175"
+  }
+},
+{
+  "type": "node",
+  "id": 2517572809,
+  "lat": 41.4441723,
+  "lon": 2.1743235,
+  "tags": {
+    "bus": "yes",
+    "name": "Almansa - Via Favència",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "975"
+  }
+},
+{
+  "type": "node",
+  "id": 2517572810,
+  "lat": 41.4438218,
+  "lon": 2.1719067,
+  "tags": {
+    "bus": "yes",
+    "name": "Via Favència - Almagro",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2517667258,
+  "lat": 41.4441471,
+  "lon": 2.1700078,
+  "tags": {
+    "bus": "yes",
+    "name": "Antonio Machado",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2517667259,
+  "lat": 41.4443002,
+  "lon": 2.1704766,
+  "tags": {
+    "bus": "yes",
+    "name": "Antonio Machado",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "18"
+  }
+},
+{
+  "type": "node",
+  "id": 2517667260,
+  "lat": 41.4443984,
+  "lon": 2.1708486,
+  "tags": {
+    "bus": "yes",
+    "name": "Antonio Machado",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2528513653,
+  "lat": 41.3916047,
+  "lon": 2.1653418,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2528513677,
+  "lat": 41.3918462,
+  "lon": 2.1656396,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2528513687,
+  "lat": 41.3947960,
+  "lon": 2.1643387,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Pau Claris",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1490"
+  }
+},
+{
+  "type": "node",
+  "id": 2528521164,
+  "lat": 41.4005458,
+  "lon": 2.1959504,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2528526774,
+  "lat": 41.4091423,
+  "lon": 2.2130392,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2533348165,
+  "lat": 41.3783319,
+  "lon": 2.1238456,
+  "tags": {
+    "bus": "yes",
+    "name": "Arizala - Les Corts",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1373"
+  }
+},
+{
+  "type": "node",
+  "id": 2536484171,
+  "lat": 41.3772843,
+  "lon": 2.1613960,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Fine/Origen bus 120"
+  }
+},
+{
+  "type": "node",
+  "id": 2536694665,
+  "lat": 41.3894949,
+  "lon": 2.1813542,
+  "tags": {
+    "highway": "bus_stop",
+    "note": "bus 120 direction Ciutad vella ends and return to Sant Antoni somewhere here"
+  }
+},
+{
+  "type": "node",
+  "id": 2536917023,
+  "lat": 41.3665507,
+  "lon": 2.1575720,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "55 final Parc de Montjuic"
+  }
+},
+{
+  "type": "node",
+  "id": 2536917026,
+  "lat": 41.3664883,
+  "lon": 2.1580359,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "13 final Parc Montjuic"
+  }
+},
+{
+  "type": "node",
+  "id": 2547332627,
+  "lat": 41.3954143,
+  "lon": 2.2070182,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2548703465,
+  "lat": 41.3746129,
+  "lon": 2.1769475,
+  "tags": {
+    "bus": "yes",
+    "name": "Les Drassanes",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2618"
+  }
+},
+{
+  "type": "node",
+  "id": 2556978503,
+  "lat": 41.3660359,
+  "lon": 2.1607125,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2560326738,
+  "lat": 41.3678562,
+  "lon": 2.1596384,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2560389400,
+  "lat": 41.3653259,
+  "lon": 2.1574095,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Estadi Olimpic"
+  }
+},
+{
+  "type": "node",
+  "id": 2560389410,
+  "lat": 41.3657104,
+  "lon": 2.1572861,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2560539837,
+  "lat": 41.3798895,
+  "lon": 2.1549110,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2560539852,
+  "lat": 41.3782442,
+  "lon": 2.1570165,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2560569226,
+  "lat": 41.3825077,
+  "lon": 2.1592148,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2563549370,
+  "lat": 41.3767122,
+  "lon": 2.1784411,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Portal de la Pau",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "257"
+  }
+},
+{
+  "type": "node",
+  "id": 2563549372,
+  "lat": 41.3748021,
+  "lon": 2.1767674,
+  "tags": {
+    "bus": "yes",
+    "name": "Les Drassanes",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2617"
+  }
+},
+{
+  "type": "node",
+  "id": 2563616373,
+  "lat": 41.3804606,
+  "lon": 2.1814883,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2565480072,
+  "lat": 41.3615630,
+  "lon": 2.1529441,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2567449878,
+  "lat": 41.4328320,
+  "lon": 2.1702579,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Aneto-Montmajor - bus 122"
+  }
+},
+{
+  "type": "node",
+  "id": 2568899830,
+  "lat": 41.3653982,
+  "lon": 2.1449503,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2568899833,
+  "lat": 41.3654283,
+  "lon": 2.1415276,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2568899836,
+  "lat": 41.3603896,
+  "lon": 2.1429252,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2568899840,
+  "lat": 41.3613257,
+  "lon": 2.1413212,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2568899846,
+  "lat": 41.3626945,
+  "lon": 2.1419410,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2568926113,
+  "lat": 41.3606473,
+  "lon": 2.1473777,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2568949586,
+  "lat": 41.3741504,
+  "lon": 2.1482987,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2570688946,
+  "lat": 41.3774267,
+  "lon": 2.1255202,
+  "tags": {
+    "bus": "yes",
+    "name": "Av Madrid - Benavent",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1753"
+  }
+},
+{
+  "type": "node",
+  "id": 2570688978,
+  "lat": 41.3798047,
+  "lon": 2.1379019,
+  "tags": {
+    "bus": "yes",
+    "name": "Comtes de Bell-lloc - Viriat",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3342"
+  }
+},
+{
+  "type": "node",
+  "id": 2570688991,
+  "lat": 41.3806193,
+  "lon": 2.1415582,
+  "tags": {
+    "bus": "yes",
+    "name": "Estació de Sants",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3324"
+  }
+},
+{
+  "type": "node",
+  "id": 2570787181,
+  "lat": 41.4047990,
+  "lon": 2.1303448,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2572094317,
+  "lat": 41.3770944,
+  "lon": 2.1833371,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Port Vell IMAX"
+  }
+},
+{
+  "type": "node",
+  "id": 2573294264,
+  "lat": 41.3947029,
+  "lon": 2.1659826,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Pau Claris",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1247"
+  }
+},
+{
+  "type": "node",
+  "id": 2573294265,
+  "lat": 41.3952444,
+  "lon": 2.1644288,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Pau Claris",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1066"
+  }
+},
+{
+  "type": "node",
+  "id": 2573294266,
+  "lat": 41.3933246,
+  "lon": 2.1618875,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Pg de Gràcia",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1207"
+  }
+},
+{
+  "type": "node",
+  "id": 2573351864,
+  "lat": 41.4012362,
+  "lon": 2.1724241,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Nàpols",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3341"
+  }
+},
+{
+  "type": "node",
+  "id": 2573351868,
+  "lat": 41.3998934,
+  "lon": 2.1706565,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Pg de Sant Joan",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1227"
+  }
+},
+{
+  "type": "node",
+  "id": 2573351872,
+  "lat": 41.4007559,
+  "lon": 2.1740465,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Diagonal",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1318"
+  }
+},
+{
+  "type": "node",
+  "id": 2573351876,
+  "lat": 41.4065182,
+  "lon": 2.1817933,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Dos de Maig",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "308"
+  }
+},
+{
+  "type": "node",
+  "id": 2573351880,
+  "lat": 41.3990064,
+  "lon": 2.1717306,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Pg de Sant Joan",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1228"
+  }
+},
+{
+  "type": "node",
+  "id": 2573396945,
+  "lat": 41.4072793,
+  "lon": 2.1805141,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Dos de Maig",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "234"
+  }
+},
+{
+  "type": "node",
+  "id": 2573396949,
+  "lat": 41.4125688,
+  "lon": 2.1875335,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Meridiana",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "871"
+  }
+},
+{
+  "type": "node",
+  "id": 2573396953,
+  "lat": 41.4103878,
+  "lon": 2.1846328,
+  "tags": {
+    "bus": "yes",
+    "name": "Mallorca - Rogent",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1224"
+  }
+},
+{
+  "type": "node",
+  "id": 2573396957,
+  "lat": 41.4111815,
+  "lon": 2.1880048,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Muntanya",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "337"
+  }
+},
+{
+  "type": "node",
+  "id": 2573396962,
+  "lat": 41.4093900,
+  "lon": 2.1856549,
+  "tags": {
+    "bus": "yes",
+    "name": "València - Rogent",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "2335"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441831,
+  "lat": 41.4148023,
+  "lon": 2.1905598,
+  "tags": {
+    "bus": "yes",
+    "name": "Clot - Pont de Bac de Roda",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "387"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441832,
+  "lat": 41.4150142,
+  "lon": 2.1955268,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Bac de Roda",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "105"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441833,
+  "lat": 41.4150763,
+  "lon": 2.1952345,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Bac de Roda",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "106"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441834,
+  "lat": 41.4124706,
+  "lon": 2.1921852,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Bilbao",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "828"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441835,
+  "lat": 41.4198703,
+  "lon": 2.2019718,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Cantàbria",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1451"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441836,
+  "lat": 41.4200181,
+  "lon": 2.2018281,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Cantàbria",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "542"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441837,
+  "lat": 41.4247504,
+  "lon": 2.2084571,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Extremadura",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1665"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441838,
+  "lat": 41.4227148,
+  "lon": 2.2057950,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Rambla Prim",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "3343"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441839,
+  "lat": 41.4228798,
+  "lon": 2.2055958,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Rambla Prim",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1092"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441840,
+  "lat": 41.4174292,
+  "lon": 2.1983805,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Selva de Mar",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1405"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441841,
+  "lat": 41.4181227,
+  "lon": 2.1996609,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Selva de Mar",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "541"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441842,
+  "lat": 41.4247901,
+  "lon": 2.2081965,
+  "tags": {
+    "bus": "yes",
+    "name": "Guipúscoa - Verneda",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "1033"
+  }
+},
+{
+  "type": "node",
+  "id": 2573441843,
+  "lat": 41.4165146,
+  "lon": 2.1975372,
+  "tags": {
+    "bus": "yes",
+    "name": "Rambla de Guipúscoa - Julián",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "398"
+  }
+},
+{
+  "type": "node",
+  "id": 2573540078,
+  "lat": 41.4216095,
+  "lon": 2.1189245,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2573562112,
+  "lat": 41.3964493,
+  "lon": 2.1550845,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2573583899,
+  "lat": 41.3962115,
+  "lon": 2.1736080,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2573607003,
+  "lat": 41.3938101,
+  "lon": 2.1737305,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2574786589,
+  "lat": 41.3767514,
+  "lon": 2.1786614,
+  "tags": {
+    "bus": "yes",
+    "name": "Portal de la Pau",
+    "network": "local",
+    "operator": "TMB",
+    "public_transport": "stop_position",
+    "ref": "252"
+  }
+},
+{
+  "type": "node",
+  "id": 2576974235,
+  "lat": 41.3995056,
+  "lon": 2.1840013,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2577430904,
+  "lat": 41.3888203,
+  "lon": 2.1827641,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2577483952,
+  "lat": 41.3791739,
+  "lon": 2.1922732,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "59"
+  }
+},
+{
+  "type": "node",
+  "id": 2577580279,
+  "lat": 41.4004352,
+  "lon": 2.1931686,
+  "tags": {
+    "highway": "bus_stop",
+    "route_ref": "92",
+    "source": "TMB"
+  }
+},
+{
+  "type": "node",
+  "id": 2577580283,
+  "lat": 41.3883866,
+  "lon": 2.1955987,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2577580287,
+  "lat": 41.3948418,
+  "lon": 2.2005447,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2577580290,
+  "lat": 41.3975239,
+  "lon": 2.1969747,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578587258,
+  "lat": 41.4160775,
+  "lon": 2.1870699,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578599216,
+  "lat": 41.3885435,
+  "lon": 2.1940802,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578675578,
+  "lat": 41.4113879,
+  "lon": 2.1644961,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578675579,
+  "lat": 41.4095211,
+  "lon": 2.1639570,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578715813,
+  "lat": 41.4132018,
+  "lon": 2.1607161,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578733281,
+  "lat": 41.4154808,
+  "lon": 2.1463499,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578733282,
+  "lat": 41.4179689,
+  "lon": 2.1477124,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2578788825,
+  "lat": 41.4007652,
+  "lon": 2.1512755,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Gracia Final 92",
+    "operator": "TMB",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2604969076,
+  "lat": 41.3990087,
+  "lon": 2.1527990,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Via Augusta-Trav Gràcia 16, 17, 27, 32",
+    "operator": "TMB",
+    "shelter": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2604969079,
+  "lat": 41.3989403,
+  "lon": 2.1526595,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Via Augusta 22, 24, V17",
+    "operator": "TMB",
+    "shelter": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2604969083,
+  "lat": 41.3987411,
+  "lon": 2.1537619,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Trav de Gràcia 87",
+    "operator": "Autosa",
+    "shelter": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2604969087,
+  "lat": 41.3987069,
+  "lon": 2.1536921,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Gràcia Final 114",
+    "operator": "TMB",
+    "shelter": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196495,
+  "lat": 41.3980460,
+  "lon": 2.2072138,
+  "tags": {
+    "description": "LH16",
+    "highway": "bus_stop",
+    "name": "Avinguda del Litoral Platja Mar Bella",
+    "website": "www.tmb.cat"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196500,
+  "lat": 41.3896623,
+  "lon": 2.1949939,
+  "tags": {
+    "highway": "bus_stop",
+    "information": "36-41-71-92",
+    "name": "0915"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196504,
+  "lat": 41.3849486,
+  "lon": 2.1958907,
+  "tags": {
+    "bench": "yes",
+    "highway": "bus_stop",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196515,
+  "lat": 41.3809468,
+  "lon": 2.1870840,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "D20,17,39,45,59,64",
+    "name": "Bus stop 000955 - Pl Pau Vila"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196517,
+  "lat": 41.4101110,
+  "lon": 2.2148620,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Final Bus H16"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196518,
+  "lat": 41.3869936,
+  "lon": 2.1650504,
+  "tags": {
+    "highway": "bus_stop",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196531,
+  "lat": 41.4018182,
+  "lon": 2.1143617,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "0198",
+    "name": "Camí de Can Caralleu - Ronda de Dalt",
+    "note": "60 130 N8 66(origen)"
+  }
+},
+{
+  "type": "node",
+  "id": 2610196548,
+  "lat": 41.3866256,
+  "lon": 2.1354217,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "990",
+    "name": "Les Corts"
+  }
+},
+{
+  "type": "node",
+  "id": 2691216666,
+  "lat": 41.3965470,
+  "lon": 2.1552703,
+  "tags": {
+    "highway": "bus_stop",
+    "route": "16;17",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2700343387,
+  "lat": 41.4103313,
+  "lon": 2.1375330,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2707017762,
+  "lat": 41.4304882,
+  "lon": 2.1662484,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Parada línia 71"
+  }
+},
+{
+  "type": "node",
+  "id": 2732794588,
+  "lat": 41.3932372,
+  "lon": 2.1118389,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Avinguda d'Esplugues - Abadessa Olzet",
+    "note": "Nº. parada 000549 Líneas: 22 PL. CATALUNYA - AV. D'ESPLUGUES 63 UNIVERSITAT - SANT JOAN DESPÍ 68 PL. CATALUNYA - CORNELLÀ 75 LES CORTS - AV. TIBIDABO 78 ESTACIÓ DE SANTS - ST. JOAN DESPÍ",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2732811280,
+  "lat": 41.3933196,
+  "lon": 2.1119923,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Avinguda d'Esplugues - Avinguda Pearson",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734938,
+  "lat": 41.3971770,
+  "lon": 2.1201902,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "2870",
+    "name": "Av. J. V. Foix - Mendel",
+    "note": "130"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734940,
+  "lat": 41.3990759,
+  "lon": 2.1173771,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "2389",
+    "name": "Av. J. V. Foix - Monestir",
+    "note": "V3"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734942,
+  "lat": 41.3995733,
+  "lon": 2.1167270,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "2388",
+    "name": "Av. J. V. Foix - Monestir",
+    "note": "V3"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734944,
+  "lat": 41.3981324,
+  "lon": 2.1191674,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "2387",
+    "name": "Av. J. V. Foix - Pg. Reina Elisenda",
+    "note": "V3 130"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734946,
+  "lat": 41.4020140,
+  "lon": 2.1091030,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "CEIP Costa i Llobera",
+    "note": "130",
+    "ref": "2859"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734948,
+  "lat": 41.4024585,
+  "lon": 2.1067875,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Camí de la Lliça",
+    "note": "130",
+    "ref": "2954"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734949,
+  "lat": 41.4018846,
+  "lon": 2.1118274,
+  "tags": {
+    "_ref": "0195",
+    "highway": "bus_stop",
+    "name": "Can Caralleu",
+    "note": "V3 origen-final"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734950,
+  "lat": 41.4022837,
+  "lon": 2.1074242,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Capella de Can Caralleu - Saüc",
+    "note": "130",
+    "ref": "2953"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734951,
+  "lat": 41.3994007,
+  "lon": 2.1205048,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3178",
+    "name": "Clos de Sant Francesc - Pg. de Reina Elisenda",
+    "note": "130"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734952,
+  "lat": 41.4017107,
+  "lon": 2.1111546,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Esports - Can Caralleu",
+    "note": "V3 130",
+    "ref": "2857"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734953,
+  "lat": 41.4008797,
+  "lon": 2.1121605,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Esports - Ronda de Dalt",
+    "note": "130",
+    "ref": "2856"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734954,
+  "lat": 41.3972661,
+  "lon": 2.1220033,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Fontcoberta - Pedró de la Creu",
+    "note": "130",
+    "ref": "3176"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734955,
+  "lat": 41.4021954,
+  "lon": 2.1102536,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Major de Can caralleu - Ptge. Blada",
+    "note": "130",
+    "ref": "2858"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734956,
+  "lat": 41.4008624,
+  "lon": 2.1205445,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1583",
+    "name": "Major de Sarrià - Dolors Monserdà",
+    "note": "66 N8"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734957,
+  "lat": 41.4034504,
+  "lon": 2.1171517,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1585",
+    "name": "Major de Sarrià - General Vives",
+    "note": "130 66 N8"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734958,
+  "lat": 41.4023703,
+  "lon": 2.1191024,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "1584",
+    "name": "Major de Sarrià - Nou de Santa Eulàlia",
+    "note": "130 66 N8"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734959,
+  "lat": 41.4038229,
+  "lon": 2.1148968,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "0330",
+    "name": "Pg. de Santa Eulàlia - Can Caralleu",
+    "note": "130"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734960,
+  "lat": 41.4038144,
+  "lon": 2.1156929,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3333",
+    "name": "Pg. de Santa Eulàlia",
+    "note": "66 final"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734965,
+  "lat": 41.4038470,
+  "lon": 2.1085552,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pins de Can Caralleu",
+    "note": "130",
+    "ref": "2862"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734971,
+  "lat": 41.4031638,
+  "lon": 2.1085039,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pins de can Caralleu - Lliça",
+    "note": "130",
+    "ref": "2861"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734975,
+  "lat": 41.4033998,
+  "lon": 2.1098350,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pl. de Mossèn Miquel Vall i Mundó",
+    "note": "130",
+    "ref": "2863"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734980,
+  "lat": 41.3998863,
+  "lon": 2.1181405,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "2866",
+    "name": "Ramon Miquel Planas - Duquessa d'Orleans",
+    "note": "130"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734986,
+  "lat": 41.4009160,
+  "lon": 2.1201898,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3177",
+    "name": "Ramon Miquel Planas - Major de Sarrià",
+    "note": "130"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734990,
+  "lat": 41.4009190,
+  "lon": 2.1139811,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "3325",
+    "name": "Ronda de Dalt - Av. J. V. Foix",
+    "note": "V3"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734995,
+  "lat": 41.4014739,
+  "lon": 2.1142487,
+  "tags": {
+    "highway": "bus_stop",
+    "local_ref": "2383",
+    "name": "Ronda de Dalt - Av. J. V. Foix",
+    "note": "V3"
+  }
+},
+{
+  "type": "node",
+  "id": 2742734999,
+  "lat": 41.4018014,
+  "lon": 2.1120315,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Torrent de Can Caralleu - Major de Can Caralleu",
+    "note": "130",
+    "ref": "2864"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572505,
+  "lat": 41.3955391,
+  "lon": 2.1199929,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Av. J. V. Foix - Pedró de la Creu",
+    "note": "130 V3",
+    "ref": "1570"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572507,
+  "lat": 41.3933747,
+  "lon": 2.1210556,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Av. J. V. Foix - Santa Amèlia",
+    "note": "V3",
+    "ref": "1571"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572508,
+  "lat": 41.3936613,
+  "lon": 2.1263198,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Benet i Mateu - Manuel de Falla",
+    "note": "34 66 130 V3 N7",
+    "ref": "0699"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572509,
+  "lat": 41.3954133,
+  "lon": 2.1255127,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Benet i Mateu - Pl. Artós",
+    "note": "66",
+    "ref": "3206"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572512,
+  "lat": 41.3960347,
+  "lon": 2.1241673,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "CAP Bonaplata",
+    "note": "130",
+    "ref": "3175"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572513,
+  "lat": 41.3976250,
+  "lon": 2.1219798,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pedró de la Creu - Gresolet",
+    "note": "130",
+    "ref": "2869"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572514,
+  "lat": 41.3953900,
+  "lon": 2.1256123,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Pl. Artós",
+    "note": "66 130",
+    "ref": "0702"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572515,
+  "lat": 41.3928197,
+  "lon": 2.1216998,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Santa Amèlia - Eduard Conde",
+    "note": "130",
+    "ref": "3133"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572516,
+  "lat": 41.3937792,
+  "lon": 2.1235408,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Santa Amèlia - Or",
+    "note": "130",
+    "ref": "3134"
+  }
+},
+{
+  "type": "node",
+  "id": 2745572517,
+  "lat": 41.3930482,
+  "lon": 2.1218466,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Santa Amèlia",
+    "note": "V3 34(origen)",
+    "ref": "2384"
+  }
+},
+{
+  "type": "node",
+  "id": 2746641858,
+  "lat": 41.3863193,
+  "lon": 2.1641886,
+  "tags": {
+    "highway": "bus_stop",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2790765458,
+  "lat": 41.4032388,
+  "lon": 2.1896032,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Badajoz-Av Diagonal"
+  }
+},
+{
+  "type": "node",
+  "id": 2855821670,
+  "lat": 41.4149804,
+  "lon": 2.1476495,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2855821671,
+  "lat": 41.4167646,
+  "lon": 2.1482745,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2855821672,
+  "lat": 41.4180936,
+  "lon": 2.1490343,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2855821673,
+  "lat": 41.4196168,
+  "lon": 2.1500286,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 2905303378,
+  "lat": 41.4212866,
+  "lon": 2.1869752,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - St. Antoni Maria Claret - Metro Sagrera",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2905567865,
+  "lat": 41.4498873,
+  "lon": 2.1889270,
+  "tags": {
+    "bus": "yes",
+    "name": "Avinguda Meridiana - Carretera de Ribes",
+    "public_transport": "platform",
+    "ref": "1709"
+  }
+},
+{
+  "type": "node",
+  "id": 2905567886,
+  "lat": 41.4315175,
+  "lon": 2.1830972,
+  "tags": {
+    "bus": "station",
+    "highway": "bus_stop",
+    "name": "Estació d'Autobusos de Fabra i Puig",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2916471151,
+  "lat": 41.4499064,
+  "lon": 2.1888016,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Avinguda Meridiana - Carretera de Ribes",
+    "public_transport": "stop_position",
+    "ref": "1709"
+  }
+},
+{
+  "type": "node",
+  "id": 2916471152,
+  "lat": 41.4422974,
+  "lon": 2.1863202,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - Plaça de Mossèn Clapés",
+    "public_transport": "stop_position",
+    "ref": "883"
+  }
+},
+{
+  "type": "node",
+  "id": 2936597214,
+  "lat": 41.4520952,
+  "lon": 2.1886245,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - Garbí",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2936643034,
+  "lat": 41.4431131,
+  "lon": 2.1863333,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - Rio de Janeiro",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2936643035,
+  "lat": 41.4481520,
+  "lon": 2.1879615,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - S'Agaró",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2936738441,
+  "lat": 41.4291924,
+  "lon": 2.1837217,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - Escòcia",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2936738442,
+  "lat": 41.4218206,
+  "lon": 2.1868424,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - Felip II - Metro Sagrera",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2936738443,
+  "lat": 41.4362637,
+  "lon": 2.1841763,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Av. Meridiana - Parc de Can Dragó",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2989714853,
+  "lat": 41.3875558,
+  "lon": 2.1689829,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2989714854,
+  "lat": 41.3877394,
+  "lon": 2.1694632,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2989714855,
+  "lat": 41.4037548,
+  "lon": 2.1156978,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2989750378,
+  "lat": 41.3984128,
+  "lon": 2.1258299,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2989750379,
+  "lat": 41.3986041,
+  "lon": 2.1253770,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2989930618,
+  "lat": 41.3845700,
+  "lon": 2.1109362,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 2989930622,
+  "lat": 41.4294080,
+  "lon": 2.1837544,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 3005520744,
+  "lat": 41.4152108,
+  "lon": 2.1611483,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3005520747,
+  "lat": 41.4131330,
+  "lon": 2.1630205,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3005520748,
+  "lat": 41.4160817,
+  "lon": 2.1600407,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Jaume Puigvert - José Millán González"
+  }
+},
+{
+  "type": "node",
+  "id": 3005520749,
+  "lat": 41.4141769,
+  "lon": 2.1623285,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3005856817,
+  "lat": 41.4143700,
+  "lon": 2.1607326,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3005856820,
+  "lat": 41.4161824,
+  "lon": 2.1621863,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3006325856,
+  "lat": 41.3953631,
+  "lon": 2.1485729,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499603,
+  "lat": 41.4164620,
+  "lon": 2.1634833,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499604,
+  "lat": 41.4172786,
+  "lon": 2.1626974,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499605,
+  "lat": 41.4185901,
+  "lon": 2.1691374,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499606,
+  "lat": 41.4152229,
+  "lon": 2.1663828,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499608,
+  "lat": 41.4183246,
+  "lon": 2.1681101,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499610,
+  "lat": 41.4165103,
+  "lon": 2.1661843,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Francesc Alegre"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499611,
+  "lat": 41.4165807,
+  "lon": 2.1663077,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3010499614,
+  "lat": 41.4167597,
+  "lon": 2.1613214,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Josep Serrano - Jaume Puigvert"
+  }
+},
+{
+  "type": "node",
+  "id": 3010721541,
+  "lat": 41.3739141,
+  "lon": 2.1781872,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Barcelona",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 3016021181,
+  "lat": 41.4132964,
+  "lon": 2.1606222,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3072946636,
+  "lat": 41.4092768,
+  "lon": 2.1372557,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 3076793405,
+  "lat": 41.3825594,
+  "lon": 2.1849395,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3092785219,
+  "lat": 41.3868829,
+  "lon": 2.1669136,
+  "tags": {
+    "name": "Ronda Universitat",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 3092785220,
+  "lat": 41.3951866,
+  "lon": 2.1763600,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Tetuan",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 3092785221,
+  "lat": 41.3964253,
+  "lon": 2.1772035,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Tetuan",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 3092785222,
+  "lat": 41.3868191,
+  "lon": 2.1670015,
+  "tags": {
+    "bus": "yes",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 3092785223,
+  "lat": 41.3952212,
+  "lon": 2.1762658,
+  "tags": {
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 3092785224,
+  "lat": 41.3964017,
+  "lon": 2.1772354,
+  "tags": {
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 3116783919,
+  "lat": 41.4114442,
+  "lon": 2.1446199,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB"
+  }
+},
+{
+  "type": "node",
+  "id": 3116783922,
+  "lat": 41.4120696,
+  "lon": 2.1403214,
+  "tags": {
+    "highway": "bus_stop",
+    "operator": "TMB"
+  }
+},
+{
+  "type": "node",
+  "id": 3166867580,
+  "lat": 41.3976468,
+  "lon": 2.1833556,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "Marina–Ctra. de Ribes",
+    "operator": "Transporte Metropolitano de Barcelona",
+    "shelter": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288082433,
+  "nodes": [
+    2905303374,
+    2916232240
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "covered": "yes",
+    "name": "Av. Meridiana - St. Antoni Maria Claret - Metro Sagrera",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288106241,
+  "nodes": [
+    2905567866,
+    2916471153
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "name": "Av. Meridiana - Plaça de Mossèn Clapés",
+    "public_transport": "platform",
+    "ref": "883",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288106242,
+  "nodes": [
+    2905567868,
+    2916471154
+  ],
+  "tags": {
+    "bus": "yes",
+    "name": "C-17 - Avinguda de l'Alzinar - Vallbona",
+    "public_transport": "platform",
+    "ref": "259"
+  }
+},
+{
+  "type": "way",
+  "id": 288785990,
+  "nodes": [
+    2923420956,
+    2923420940
+  ],
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "highway": "platform",
+    "name": "Auditori - Teatre Nacional",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288785991,
+  "nodes": [
+    2923420954,
+    2923420939
+  ],
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "highway": "platform",
+    "name": "Auditori - Teatre Nacional",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288785995,
+  "nodes": [
+    2923420996,
+    2923420979
+  ],
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "highway": "platform",
+    "name": "Glòries",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288785996,
+  "nodes": [
+    2923420997,
+    2923420978
+  ],
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "highway": "platform",
+    "name": "Glòries",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288789432,
+  "nodes": [
+    2923451395,
+    2923451384
+  ],
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "highway": "platform",
+    "name": "Ciutadella | Vila Olímpica",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 288789434,
+  "nodes": [
+    2923451398,
+    2923451387
+  ],
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "highway": "platform",
+    "name": "Ciutadella | Vila Olímpica",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 290131933,
+  "nodes": [
+    2936597218,
+    2936597217
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "covered": "yes",
+    "highway": "platform",
+    "name": "Av. Meridiana - Garbí",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 290137829,
+  "nodes": [
+    2936643041,
+    2936643040
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "covered": "yes",
+    "highway": "platform",
+    "name": "Av. Meridiana - Rio de Janeiro",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 290137830,
+  "nodes": [
+    2936643047,
+    2936643046
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "covered": "yes",
+    "highway": "platform",
+    "name": "Av. Meridiana - S'Agaró",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 290146695,
+  "nodes": [
+    2936738450,
+    2936738448
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "covered": "yes",
+    "highway": "platform",
+    "name": "Av. Meridiana - Escòcia",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 290146696,
+  "nodes": [
+    2936738445,
+    2936738444
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "covered": "yes",
+    "highway": "platform",
+    "name": "Av. Meridiana - Felip II - Metro Sagrera",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 290146697,
+  "nodes": [
+    2936738453,
+    2936738452
+  ],
+  "tags": {
+    "bench": "yes",
+    "bus": "yes",
+    "covered": "yes",
+    "highway": "platform",
+    "name": "Av. Meridiana - Parc de Can Dragó",
+    "public_transport": "platform",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2923451384,
+  "lat": 41.3875033,
+  "lon": 2.1920067
+},
+{
+  "type": "node",
+  "id": 2923451387,
+  "lat": 41.3875552,
+  "lon": 2.1920664
+},
+{
+  "type": "node",
+  "id": 2923451395,
+  "lat": 41.3876724,
+  "lon": 2.1917746
+},
+{
+  "type": "node",
+  "id": 2923451398,
+  "lat": 41.3877261,
+  "lon": 2.1918311
+},
+{
+  "type": "node",
+  "id": 2923420939,
+  "lat": 41.3974201,
+  "lon": 2.1869055
+},
+{
+  "type": "node",
+  "id": 2923420940,
+  "lat": 41.3974217,
+  "lon": 2.1868182
+},
+{
+  "type": "node",
+  "id": 2923420954,
+  "lat": 41.3977979,
+  "lon": 2.1869065
+},
+{
+  "type": "node",
+  "id": 2923420956,
+  "lat": 41.3977993,
+  "lon": 2.1868191
+},
+{
+  "type": "node",
+  "id": 2923420978,
+  "lat": 41.4015708,
+  "lon": 2.1869382
+},
+{
+  "type": "node",
+  "id": 2923420979,
+  "lat": 41.4015710,
+  "lon": 2.1868355
+},
+{
+  "type": "node",
+  "id": 2923420996,
+  "lat": 41.4020255,
+  "lon": 2.1868364
+},
+{
+  "type": "node",
+  "id": 2923420997,
+  "lat": 41.4020259,
+  "lon": 2.1869371
+},
+{
+  "type": "node",
+  "id": 2905303374,
+  "lat": 41.4213367,
+  "lon": 2.1871115
+},
+{
+  "type": "node",
+  "id": 2916232240,
+  "lat": 41.4212581,
+  "lon": 2.1871113
+},
+{
+  "type": "node",
+  "id": 2936738444,
+  "lat": 41.4218051,
+  "lon": 2.1867570
+},
+{
+  "type": "node",
+  "id": 2936738445,
+  "lat": 41.4218402,
+  "lon": 2.1867570
+},
+{
+  "type": "node",
+  "id": 2936738448,
+  "lat": 41.4291279,
+  "lon": 2.1836505
+},
+{
+  "type": "node",
+  "id": 2936738450,
+  "lat": 41.4291631,
+  "lon": 2.1836242
+},
+{
+  "type": "node",
+  "id": 2936738452,
+  "lat": 41.4362649,
+  "lon": 2.1840019
+},
+{
+  "type": "node",
+  "id": 2936738453,
+  "lat": 41.4363026,
+  "lon": 2.1840148
+},
+{
+  "type": "node",
+  "id": 2905567866,
+  "lat": 41.4423397,
+  "lon": 2.1864504
+},
+{
+  "type": "node",
+  "id": 2916471153,
+  "lat": 41.4422486,
+  "lon": 2.1864212
+},
+{
+  "type": "node",
+  "id": 2936643040,
+  "lat": 41.4431280,
+  "lon": 2.1862122
+},
+{
+  "type": "node",
+  "id": 2936643041,
+  "lat": 41.4431629,
+  "lon": 2.1862157
+},
+{
+  "type": "node",
+  "id": 2936643046,
+  "lat": 41.4481458,
+  "lon": 2.1877961
+},
+{
+  "type": "node",
+  "id": 2936643047,
+  "lat": 41.4481901,
+  "lon": 2.1878103
+},
+{
+  "type": "node",
+  "id": 2936597217,
+  "lat": 41.4520809,
+  "lon": 2.1885725
+},
+{
+  "type": "node",
+  "id": 2936597218,
+  "lat": 41.4521212,
+  "lon": 2.1885725
+},
+{
+  "type": "node",
+  "id": 2905567868,
+  "lat": 41.4609490,
+  "lon": 2.1831547
+},
+{
+  "type": "node",
+  "id": 2916471154,
+  "lat": 41.4609128,
+  "lon": 2.1831885
+}
+
+  ]
+}

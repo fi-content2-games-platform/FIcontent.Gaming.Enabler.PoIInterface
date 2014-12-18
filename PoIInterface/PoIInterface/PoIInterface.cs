@@ -53,8 +53,8 @@ namespace PoI
 		/// Adds a PoI
 		/// </summary>        
 		/// <param name="p">PoIInfo to add</param>
-		/// <returns>true on success, the PoI also is completed with the created UUID</returns>
-		public bool Add (ref PoIInfo p)
+		/// <returns>the PoI completed with the created UUID</returns>
+		public PoIInfo Add (PoIInfo p)
 		{            
 			string request = new AddPoIRequest(_poiUrl);
 
@@ -64,13 +64,13 @@ namespace PoI
 			Console.WriteLine(result);
 
 			if (string.IsNullOrEmpty(result))
-				return false;
+				return null;
 
 			var createdResult = new PoiCreatedResult(MiniJSON.Json.Deserialize(result));
 			if (createdResult.Success)
 				p.Id = createdResult.Id;
 
-			return createdResult.Success;
+			return p;
 		}
 
 		/// <summary>
@@ -153,6 +153,18 @@ namespace PoI
 		public List<PoIInfo> RadialSearch (Location l, float radius, int maxResults)
 		{
 			string request = new RadialSearchRequest(_poiUrl, radius, l, maxResults);
+			return GetPoIList(request);
+		}
+		/// <summary>
+		/// Radial search of PoIs around a location coordinates
+		/// </summary>
+		/// <returns>The search results as a list of PoI</returns>
+		/// <param name="l">Location (lat, lon)</param>
+		/// <param name="radius">Radius of the search</param>
+		/// <param name="category">category filter</param>
+		public List<PoIInfo> RadialSearch (Location l, float radius, string category)
+		{
+			string request = new RadialSearchRequest(_poiUrl, radius, l, category);
 			return GetPoIList(request);
 		}
 

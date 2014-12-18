@@ -30,7 +30,10 @@ namespace PoI.Requests
 		{
 			this.Parameters.Add("max_results", maxResults.ToString());
 		}
-
+		public RadialSearchRequest(string url, float radius, Location location, string category) : this(url, radius, location)
+		{
+			this.Parameters.Add("category", category);
+		}
 		public RadialSearchRequest(string url, float radius, Location location) : base(url, "radial_search")
 		{
 			this.Parameters.Add("component", GetRequestAbstract.RequestComponents);

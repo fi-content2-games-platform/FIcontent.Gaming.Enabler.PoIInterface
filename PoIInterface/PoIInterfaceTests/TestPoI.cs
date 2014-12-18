@@ -49,10 +49,10 @@ namespace PoIInterfaceTest
 			pInfo.FwCore = fwCore;
 			pInfo.FwTime = FwTime.Open;
 
-			bool ret = pInterface.Add (ref pInfo);
+			pInfo = pInterface.Add (pInfo);
 			Console.WriteLine (pInfo.Id);
 
-			Assert.IsTrue (ret);
+			Assert.IsNotNullOrEmpty(pInfo.Id);
 
 			bool retDelete = pInterface.Delete (pInfo);
 

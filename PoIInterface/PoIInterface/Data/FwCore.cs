@@ -115,9 +115,12 @@ namespace PoI.Data
 			
 			this.Name = ((Dictionary<string, object>)fwcoreDic ["name"]) [string.Empty] as string;
 			
-			if (fwcoreDic.ContainsKey ("description"))
-				this.Description = ((Dictionary<string, object>)fwcoreDic ["description"]) [string.Empty] as string;
-
+			if (fwcoreDic.ContainsKey("description"))
+			{
+				var descDic = (Dictionary<string, object>)fwcoreDic ["description"];
+				if (descDic.ContainsKey(string.Empty))
+					this.Description = descDic [string.Empty] as string;
+			}
 			if (fwcoreDic.ContainsKey ("source")) {
 				var source = fwcoreDic ["source"] as Dictionary<string, object>;
 				this.Source = new Source (source);
