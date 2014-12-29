@@ -38,11 +38,11 @@ namespace PoI.Serialization
 		/// </summary>
 		/// <returns>The PoI list.</returns>
 		/// <param name="json">Json string</param>
-		public static List<PoIInfo> DeserializePoIList (string json)
+		public static PoIInfoList DeserializePoIList (string json)
 		{
 			var poiResults = MiniJSON.Json.Deserialize (json) as Dictionary<string, object>;
 			var pois = poiResults ["pois"] as Dictionary<string, object>;
-			var retList = new List<PoIInfo> ();
+			var retList = new PoIInfoList ();
 
 			if (pois != null && pois.Count > 0) {
 				foreach (var poi in pois) {

@@ -68,5 +68,6 @@
     <Compile Include="PoIInterface\Serialization\IMarshallableData.cs" />
     <Compile Include="PoIInterface\Serialization\MarshallableDataAbstract.cs" />
     <Compile Include="PoIInterface\Serialization\PoISerializationHelper.cs" />
+    <Compile Include="PoIInterface\Data\PoIInfoList.cs" />
   </ItemGroup>
 </Project>

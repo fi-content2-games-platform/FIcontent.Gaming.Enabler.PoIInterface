@@ -113,7 +113,7 @@ namespace PoI
 		/// <returns>the PoI</returns>
 		/// <param name="id">PoI Identifier</param>
 		/// <param name="getForUpdate">true if the poi is to be prepared for update</param> 
-		public List<PoIInfo> GetByID (string id, bool getForUpdate)
+		public PoIInfoList GetByID (string id, bool getForUpdate)
 		{
 			string request = new GetPoIRequest(_poiUrl, id, getForUpdate);
 			return GetPoIList(request);
@@ -126,7 +126,7 @@ namespace PoI
 		/// <param name="northWest">North west corner</param>
 		/// <param name="southEast">South east corner</param>
 		/// <param name="maxResults">Max results</param>
-		public List<PoIInfo> BBoxSearch(Location northWest, Location southEast, int maxResults)
+		public PoIInfoList BBoxSearch(Location northWest, Location southEast, int maxResults)
 		{
 			string request = new BBoxSearchRequest(_poiUrl, northWest, southEast, maxResults);
 			return GetPoIList(request);
@@ -138,7 +138,7 @@ namespace PoI
 		/// <returns>The search results as a list of PoI</returns>
 		/// <param name="l">Location (lat, lon)</param>
 		/// <param name="radius">Radius of the search</param>
-		public List<PoIInfo> RadialSearch (Location l, float radius)
+		public PoIInfoList RadialSearch (Location l, float radius)
 		{
 			string request = new RadialSearchRequest(_poiUrl, radius, l);
 			return GetPoIList(request);
@@ -150,7 +150,7 @@ namespace PoI
 		/// <param name="l">Location (lat, lon)</param>
 		/// <param name="radius">Radius of the search</param>
 		/// <param name="maxResults">Max results</param>
-		public List<PoIInfo> RadialSearch (Location l, float radius, int maxResults)
+		public PoIInfoList RadialSearch (Location l, float radius, int maxResults)
 		{
 			string request = new RadialSearchRequest(_poiUrl, radius, l, maxResults);
 			return GetPoIList(request);
@@ -162,7 +162,7 @@ namespace PoI
 		/// <param name="l">Location (lat, lon)</param>
 		/// <param name="radius">Radius of the search</param>
 		/// <param name="category">category filter</param>
-		public List<PoIInfo> RadialSearch (Location l, float radius, string category)
+		public PoIInfoList RadialSearch (Location l, float radius, string category)
 		{
 			string request = new RadialSearchRequest(_poiUrl, radius, l, category);
 			return GetPoIList(request);
@@ -174,7 +174,7 @@ namespace PoI
 
 		#region Private Methods
 
-		private List<PoIInfo> GetPoIList(string request)
+		private PoIInfoList GetPoIList(string request)
 		{
 			string results = httpRequest.GetRequest(request);
 			
@@ -185,7 +185,7 @@ namespace PoI
 
 		#region Static methods
 
-		public static List<PoIInfo> GetFromString (string poiStr)
+		public static PoIInfoList GetFromString (string poiStr)
 		{
 			return PoISerializationHelper.DeserializePoIList(poiStr);
 		}

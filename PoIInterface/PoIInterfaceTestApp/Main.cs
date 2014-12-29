@@ -20,7 +20,7 @@ namespace PoIInterfaceTestApp
 
 		static void ImportFromOverPass ()
 		{
-			List<PoIInfo> pInfoList = new List<PoIInfo> ();
+			PoIInfoList pInfoList = new PoIInfoList ();
 			PoIInterface poi = new PoIInterface ("http://dev.cie.fi/FI-WARE/poi_dp");
 
 			//parse file with the busstops
