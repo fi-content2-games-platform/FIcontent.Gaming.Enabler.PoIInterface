@@ -95,9 +95,9 @@ namespace PoIInterfaceTestApp
 		public static void Main (string[] args)
 		{
 
-			//Example ();
+			Example ();
 
-			ImportFromOverPass ();
+			//ImportFromOverPass ();
 
 			Console.WriteLine ("Done.");
 			Console.ReadKey ();
