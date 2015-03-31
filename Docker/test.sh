@@ -1,7 +1,10 @@
 #!/bin/sh
 
-HOST="localhost"
-PORT="81"
+# How to use: ./test.sh HOST PORT
+HOST=$1
+PORT=$2
+[ "$HOST" ] || HOST="localhost"
+[ "$PORT" ] || PORT="8000"
 
 echo "Entering FIC2Lab smoke test sequence. Vendor's validation procedure of the POI Data Provider GE engaged. Target host: $HOST:$PORT"
 
