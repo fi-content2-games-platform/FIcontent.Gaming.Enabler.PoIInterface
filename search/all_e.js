@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['data',['Data',['../namespace_po_i_1_1_data.html',1,'PoI']]],
+  ['http',['Http',['../namespace_po_i_1_1_http.html',1,'PoI']]],
+  ['parameters',['Parameters',['../class_po_i_1_1_requests_1_1_get_request_abstract.html#ac15a2eeadec493448b2244e128d6f9f4',1,'PoI::Requests::GetRequestAbstract']]],
+  ['poi',['PoI',['../namespace_po_i.html',1,'']]],
+  ['poicreatedresult',['PoiCreatedResult',['../class_po_i_1_1_data_1_1_poi_created_result.html#a1b6cc656548b48bea59d9658f1bb0064',1,'PoI::Data::PoiCreatedResult']]],
+  ['poicreatedresult',['PoiCreatedResult',['../class_po_i_1_1_data_1_1_poi_created_result.html',1,'PoI::Data']]],
+  ['poicreatedresult_2ecs',['PoICreatedResult.cs',['../_po_i_created_result_8cs.html',1,'']]],
+  ['poiinfo',['PoIInfo',['../class_po_i_1_1_data_1_1_po_i_info.html',1,'PoI::Data']]],
+  ['poiinfo',['PoIInfo',['../class_po_i_1_1_data_1_1_po_i_info.html#a80c1767a6ef34b8bd865b0cac1055191',1,'PoI.Data.PoIInfo.PoIInfo()'],['../class_po_i_1_1_data_1_1_po_i_info.html#a3a8a782505d84671dae6abf212d57988',1,'PoI.Data.PoIInfo.PoIInfo(string id)'],['../class_po_i_1_1_data_1_1_po_i_info.html#a4ec23283f3c9dfd172d4c89385475c9c',1,'PoI.Data.PoIInfo.PoIInfo(object data)']]],
+  ['poiinfo_2ecs',['PoIInfo.cs',['../_po_i_info_8cs.html',1,'']]],
+  ['poiinfolist',['PoIInfoList',['../class_po_i_1_1_data_1_1_po_i_info_list.html',1,'PoI::Data']]],
+  ['poiinfolist_2ecs',['PoIInfoList.cs',['../_po_i_info_list_8cs.html',1,'']]],
+  ['poiinterface',['PoIInterface',['../class_po_i_1_1_po_i_interface.html',1,'PoI']]],
+  ['poiinterface',['PoIInterface',['../class_po_i_1_1_po_i_interface.html#a89be18c048adc216c8c90fa2d61b7b3d',1,'PoI::PoIInterface']]],
+  ['poiinterface_2ecs',['PoIInterface.cs',['../_po_i_interface_8cs.html',1,'']]],
+  ['poiserializationhelper',['PoISerializationHelper',['../class_po_i_1_1_serialization_1_1_po_i_serialization_helper.html',1,'PoI::Serialization']]],
+  ['poiserializationhelper_2ecs',['PoISerializationHelper.cs',['../_po_i_serialization_helper_8cs.html',1,'']]],
+  ['postrequest',['PostRequest',['../class_po_i_1_1_http_1_1_http_request_net.html#af7e32e99a0b3fd2eb62e3de3cd5e4cb4',1,'PoI.Http.HttpRequestNet.PostRequest()'],['../interface_po_i_1_1_http_1_1_i_http_request.html#a00bed76d6c6da6dfce1a520a786e3b37',1,'PoI.Http.IHttpRequest.PostRequest()'],['../class_po_i_1_1_requests_1_1_post_request.html#a8944973c4384e610e4e67de01cb28789',1,'PoI.Requests.PostRequest.PostRequest()']]],
+  ['postrequest',['PostRequest',['../class_po_i_1_1_requests_1_1_post_request.html',1,'PoI::Requests']]],
+  ['postrequest_2ecs',['PostRequest.cs',['../_post_request_8cs.html',1,'']]],
+  ['requests',['Requests',['../namespace_po_i_1_1_requests.html',1,'PoI']]],
+  ['serialization',['Serialization',['../namespace_po_i_1_1_serialization.html',1,'PoI']]]
+];
