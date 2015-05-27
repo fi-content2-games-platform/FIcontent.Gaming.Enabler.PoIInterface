@@ -13,6 +13,14 @@ Clone this repository with the following command
 
 ### Import to Unity
 
-Copy FIcontent.Gaming.Enabler.PoIInterface/PoIInterface/PoIInterface/
+Create a new Unity project.
+Copy the scripts to your project folder, the required scripts are located in this folder:
 
-Hit play and enjoy!
+*FIcontent.Gaming.Enabler.PoIInterface/PoIInterface/PoIInterface/*
+
+Create a new GameObject and attach the provided example script:
+
+*FIcontent.Gaming.Enabler.PoIInterface/Unity/Example.cs*
+
+
+Hit play and you will see the list of POI that has been found by the search query in the Unity Console!
