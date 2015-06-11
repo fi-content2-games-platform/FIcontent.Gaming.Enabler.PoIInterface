@@ -20,7 +20,6 @@ RUN	git clone https://github.com/Chiru/FIWARE-POIDataProvider.git && \
 RUN 	pecl install mongo && \
   	echo "extension=mongo.so" > /etc/php5/conf.d/mongo.ini
 
-
 # configure postGIS
 RUN	/etc/init.d/postgresql start && \
 	pg_dropcluster --stop 9.1 main && \
@@ -36,6 +35,8 @@ RUN	/etc/init.d/postgresql start && \
 	/etc/init.d/postgresql stop
 
 ADD	pg_hba.conf /etc/postgresql/9.1/main/pg_hba.conf
+
+RUN mkdir /data/ && mkdir /data/db
 
 RUN 	ln -s /dev/stdout /var/log/mongodb/mongodb.log && \
 	mongod --fork --config '/etc/mongodb.conf' && \
