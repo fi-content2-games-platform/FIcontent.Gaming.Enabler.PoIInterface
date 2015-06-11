@@ -8,24 +8,26 @@ namespace PoIInterfaceTest
 	[TestFixture()]
 	public class TestPoI
 	{
+		public static string POI_DP_URL = "http://195.220.224.207";
+
 		[Test()]
-		public void TestFromString()
+		public void TestFromString ()
 		{
-			string poiStr = System.IO.File.ReadAllText(@"Data/test_pois.json");
+			string poiStr = System.IO.File.ReadAllText (@"Data/test_pois.json");
 			//file is found
-			Assert.IsNotEmpty(poiStr);
+			Assert.IsNotEmpty (poiStr);
 		
 
-			var list = PoIInterface.GetFromString(poiStr);
-			Assert.IsNotNull(list);
-			Assert.Greater(list.Count, 0);
+			var list = PoIInterface.GetFromString (poiStr);
+			Assert.IsNotNull (list);
+			Assert.Greater (list.Count, 0);
 		}
 
 		[Test()]
 		public void TestDeleteNotExists ()
 		{
 			PoIInfo pInfo = new PoIInfo ("00000000-acd2-4cdf-a65e-cded7bc7833e");
-			PoIInterface pInterface = new PoIInterface ("http://dev.cie.fi/FI-WARE/poi_dp");
+			PoIInterface pInterface = new PoIInterface (POI_DP_URL);
 
 			try {
 				pInterface.Delete (pInfo);
@@ -38,7 +40,7 @@ namespace PoIInterfaceTest
 		[Test()]
 		public void TestAddDelete ()
 		{
-			PoIInterface pInterface = new PoIInterface ("http://dev.cie.fi/FI-WARE/poi_dp");
+			PoIInterface pInterface = new PoIInterface (POI_DP_URL);
 			PoIInfo pInfo = new PoIInfo ();
 			FwCore fwCore = new FwCore ();
 			fwCore.Name = "asd";
@@ -52,7 +54,7 @@ namespace PoIInterfaceTest
 			pInfo = pInterface.Add (pInfo);
 			Console.WriteLine (pInfo.Id);
 
-			Assert.IsNotNullOrEmpty(pInfo.Id);
+			Assert.IsNotNullOrEmpty (pInfo.Id);
 
 			bool retDelete = pInterface.Delete (pInfo);
 
@@ -63,11 +65,12 @@ namespace PoIInterfaceTest
 		[Test()]
 		public void TestUpdate ()
 		{
-			PoIInterface pInterface = new PoIInterface ("http://dev.cie.fi/FI-WARE/poi_dp");
-			var pInfo = pInterface.GetByID ("0ac396ab-acd2-4cdf-a65e-cded7bc7833e", true);
+			PoIInterface pInterface = new PoIInterface (POI_DP_URL);
+			var pInfo = pInterface.GetByID ("ae01d34a-d0c1-4134-9107-71814b4805af", true);
 			Assert.AreEqual (1, pInfo.Count);
 
-			pInfo[0].FwCore.Source.Licence = @"http://www.sorrata.com";
+			pInfo [0].FwCore.Description = Guid.NewGuid ().ToString ();
+			pInfo [0].FwCore.LastUpdate = LastUpdate.Now;
 
 			bool ret = pInterface.Update (pInfo [0]);
 			
@@ -77,22 +80,22 @@ namespace PoIInterfaceTest
 		[Test()]
 		public void TestGetByID ()
 		{
-			PoIInterface pInterface = new PoIInterface ("http://dev.cie.fi/FI-WARE/poi_dp");
+			PoIInterface pInterface = new PoIInterface (POI_DP_URL);
 
-			var pInfo = pInterface.GetByID ("0ac396ab-acd2-4cdf-a65e-cded7bc7833e", false);
+			var pInfo = pInterface.GetByID ("ae01d34a-d0c1-4134-9107-71814b4805af", false);
 
 			Assert.IsNotNull (pInfo);
-			Assert.AreEqual (pInfo [0].FwCore.Name, "Mundt&Morczinek");
+			Assert.AreEqual (pInfo [0].FwCore.Name, "Test POI 1");
 		}
 
 		[Test()]
 		public void TestBBoxSearch ()
 		{
-			PoIInterface pInterface = new PoIInterface ("http://dev.cie.fi/FI-WARE/poi_dp");
+			PoIInterface pInterface = new PoIInterface (POI_DP_URL);
 			
 			var list = pInterface.BBoxSearch (
-				new Location (52.399033639398, 9.6893684005723),
-				new Location (52.364874973784, 9.8541633224465),
+				new Location (1, 1),
+				new Location (1, 1),
 				100);
 			                                 
 			Assert.Greater (list.Count, 0);
@@ -101,14 +104,11 @@ namespace PoIInterfaceTest
 		[Test()]
 		public void TestRadialSearch ()
 		{
-			PoIInterface pInterface = new PoIInterface ("http://dev.cie.fi/FI-WARE/poi_dp");
-			
-			var list = pInterface.RadialSearch (new Location (52.399033639398, 9.6893684005723), 1000f);
-
+			PoIInterface pInterface = new PoIInterface (POI_DP_URL);			
+			var list = pInterface.RadialSearch (new Location (1, 1), 1000f);
 			Assert.Greater (list.Count, 0);
 
-			var list2 = pInterface.RadialSearch (new Location (52.399033639398, 9.6893684005723), 1000f, 1);
-
+			var list2 = pInterface.RadialSearch (new Location (1, 1), 1000f, 1);
 			Assert.AreEqual (1, list2.Count);
 		}
 	}
