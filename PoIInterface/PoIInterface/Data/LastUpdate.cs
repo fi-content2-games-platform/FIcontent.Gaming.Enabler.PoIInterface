@@ -110,7 +110,7 @@ namespace PoI.Data
 		{ get {
 				return new LastUpdate () { 
 					TimeStamp = (long)(DateTime.UtcNow.Subtract (new DateTime (1970, 1, 1))).TotalSeconds,
-					Responsible = string.Empty
+					Responsible = "x"
 				};
 			} }
 	}

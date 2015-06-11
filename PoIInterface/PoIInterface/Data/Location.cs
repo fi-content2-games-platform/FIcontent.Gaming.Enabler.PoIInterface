@@ -70,8 +70,8 @@ namespace PoI.Data
 		{
 			var wgs84 = ((Dictionary<string, object>)data) ["wgs84"] as Dictionary<string, object>;
 			
-			this.Latitude = (double)wgs84 ["latitude"];
-			this.Longitude = (double)wgs84 ["longitude"];
+			this.Latitude = Convert.ToDouble (wgs84 ["latitude"]);
+			this.Longitude = Convert.ToDouble (wgs84 ["longitude"]);
 		}
 
 		#endregion
@@ -121,7 +121,7 @@ namespace PoI.Data
 			double a = Math.Sin (dt / 2.0) * Math.Sin (dt / 2.0) + 
 				Math.Cos (t1) * Math.Cos (t2) *
 				Math.Sin (ds / 2.0) * Math.Sin (ds / 2.0);
-			double c = 2.0 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1.0 - a));
+			double c = 2.0 * Math.Atan2 (Math.Sqrt (a), Math.Sqrt (1.0 - a));
 
 			return R * c;
 		}
