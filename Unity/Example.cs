@@ -6,13 +6,75 @@ using PoI.Data;
 public class Example : MonoBehaviour
 {
 
-	// Use this for initialization
+	public string poiURL = "http://195.220.224.207";
+	
+	private PoIInterface poiInterface;
+	private string poiID = string.Empty;
+	
 	void Start ()
 	{
-		PoIInterface pInterface = new PoIInterface ("http://195.220.224.207");
-		var results = pInterface.RadialSearch (new Location (1f, 1f), 10000f);
-
-		foreach (var r in results)
-			Debug.Log (r);
+		poiInterface = new PoIInterface (poiURL);			
+	}
+	
+	void OnGUI ()
+	{
+		
+		if (GUILayout.Button ("Radial Search"))
+			RadialSearch ();
+		if (GUILayout.Button ("Add POI"))
+			poiID = AddPoI ();
+		if (GUILayout.Button ("Delete POI"))
+			DeletePoI ();				
+		if (GUILayout.Button ("Update POI"))
+			UpdatePoI ();
+		
+		GUILayout.Label ("POI ID:");
+		poiID = GUILayout.TextField (poiID);
+		
+		
+	}
+	
+	public void RadialSearch ()
+	{
+		foreach (PoIInfo poi in poiInterface.RadialSearch(new Location(1, 1), 1))
+			Debug.Log (poi.Id + " " + poi.FwCore);
+	}
+	
+	public void DeletePoI ()
+	{
+		var p = new PoIInfo ();
+		p.Id = poiID;
+		if (poiInterface.Delete (p))
+			poiID = string.Empty;
+	}
+	
+	public string AddPoI ()
+	{
+		PoIInfo poi = new PoIInfo ();
+		poi.FwCore = new FwCore ();
+		poi.FwCore.Location = new Location (1, 1);
+		poi.FwCore.Category = "test";
+		poi.FwCore.Name = "test poi";
+		var ret = poiInterface.Add (poi);
+		Debug.Log (ret.FwCore);
+		
+		return ret.Id;
+	}
+	
+	public void UpdatePoI ()
+	{
+		var poiList = poiInterface.GetByID (poiID, true);
+		
+		if (poiList.Count == 0) {
+			Debug.LogWarning ("no pois found");
+			return;
+		}
+		
+		var poi = poiList [0];
+		Debug.Log ("updating " + poi.FwCore);
+		
+		poi.FwCore.Description = Guid.NewGuid ().ToString ();
+		poi.FwCore.LastUpdate = LastUpdate.Now;
+		Debug.Log (poiInterface.Update (poi));			
 	}
 }
